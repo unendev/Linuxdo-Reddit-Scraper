@@ -6,6 +6,8 @@ import re
 import json
 import time
 import os
+import asyncio
+import asyncpg
 from dotenv import load_dotenv
 
 # --- 配置日志 ---
@@ -26,6 +28,7 @@ SUBREDDIT = "technology"
 RSS_URL = f"https://www.reddit.com/r/{SUBREDDIT}/.rss?sort=hot"
 POST_COUNT_LIMIT = 10  # 限制获取的帖子数量（减少数量以便获取详细内容）
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+NEON_DB_URL = os.getenv("DATABASE_URL")
 
 # --- Reddit 爬虫函数 ---
 def fetch_reddit_posts():
@@ -255,6 +258,99 @@ def analyze_single_post_with_deepseek(post, retry_count=0):
             "core_issue": "AI分析失败", "key_info": [], "post_type": "错误", "value_assessment": "低"
         }
 
+# --- 数据库操作 (复用 linuxdo-scraper 的逻辑) ---
+async def create_posts_table():
+    """连接到Neon数据库并创建posts表，如果它不存在的话。"""
+    if not NEON_DB_URL:
+        logger.error("未找到 DATABASE_URL 环境变量。无法连接到数据库。")
+        return False
+
+    conn = None
+    try:
+        conn = await asyncpg.connect(NEON_DB_URL)
+        await conn.execute("""
+            CREATE TABLE IF NOT EXISTS reddit_posts (
+                id TEXT PRIMARY KEY,
+                title TEXT NOT NULL,
+                url TEXT NOT NULL,
+                core_issue TEXT,
+                key_info JSONB,
+                post_type TEXT,
+                value_assessment TEXT,
+                subreddit TEXT,
+                score INTEGER,
+                num_comments INTEGER,
+                timestamp TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+            );
+        """)
+        logger.info("数据库表 'reddit_posts' 检查或创建成功。")
+        return True
+    except Exception as e:
+        logger.error(f"创建数据库表失败: {e}")
+        return False
+    finally:
+        if conn:
+            await conn.close()
+
+async def insert_posts_into_db(posts_data):
+    """将处理后的帖子数据插入到Neon数据库中。"""
+    if not NEON_DB_URL:
+        logger.error("未找到 DATABASE_URL 环境变量。无法连接到数据库。")
+        return False
+
+    conn = None
+    try:
+        conn = await asyncpg.connect(NEON_DB_URL)
+        logger.info("开始将 Reddit 帖子数据插入到数据库...")
+        
+        success_count = 0
+        for post in posts_data:
+            try:
+                post_id = post.get('id', f"reddit_{post.get('link', '').split('/')[-1]}")
+                title = post.get('title')
+                url = post.get('link')
+                analysis = post.get('analysis', {})
+                core_issue = analysis.get('core_issue')
+                key_info = json.dumps(analysis.get('key_info', []))
+                post_type = analysis.get('post_type')
+                value_assessment = analysis.get('value_assessment')
+                subreddit = SUBREDDIT
+                score = post.get('score', 0)
+                num_comments = post.get('num_comments', 0)
+
+                await conn.execute("""
+                    INSERT INTO reddit_posts (id, title, url, core_issue, key_info, post_type, value_assessment, subreddit, score, num_comments)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+                    ON CONFLICT (id) DO UPDATE SET
+                        title = EXCLUDED.title,
+                        url = EXCLUDED.url,
+                        core_issue = EXCLUDED.core_issue,
+                        key_info = EXCLUDED.key_info,
+                        post_type = EXCLUDED.post_type,
+                        value_assessment = EXCLUDED.value_assessment,
+                        subreddit = EXCLUDED.subreddit,
+                        score = EXCLUDED.score,
+                        num_comments = EXCLUDED.num_comments,
+                        timestamp = CURRENT_TIMESTAMP;
+                """, post_id, title, url, core_issue, key_info, post_type, value_assessment, subreddit, score, num_comments)
+                
+                logger.info(f"  - Reddit 帖子 '{title[:30]}...' (ID: {post_id}) 已插入/更新。")
+                success_count += 1
+                
+            except Exception as e:
+                logger.error(f"插入 Reddit 帖子 {post.get('id', 'N/A')} 失败: {e}")
+                continue
+        
+        logger.info(f"成功插入/更新了 {success_count}/{len(posts_data)} 条 Reddit 帖子数据到数据库。")
+        return success_count > 0
+        
+    except Exception as e:
+        logger.error(f"插入 Reddit 帖子数据到数据库失败: {e}")
+        return False
+    finally:
+        if conn:
+            await conn.close()
+
 # --- AI 整体洞察报告生成 (复用 linuxdo-scraper 的架构) ---
 def generate_ai_summary_report(posts_data):
     """生成AI摘要报告，增强错误处理"""
@@ -383,7 +479,7 @@ def generate_json_report(report_data, posts_count):
     """生成JSON报告文件，增强错误处理"""
     try:
         today_str = datetime.now().strftime("%Y-%m-%d")
-        filename = f"reddit_{SUBREDDIT}_report_{today_str}.json"
+        filename = f"data/reddit_{SUBREDDIT}_report_{today_str}.json"
 
         # 准备最终的JSON结构 (与 linuxdo-scraper 相同格式)
         final_json = {
@@ -416,13 +512,13 @@ def generate_json_report(report_data, posts_count):
     except Exception as e:
         logger.error(f"生成JSON报告失败: {e}")
         return None
-
+        
 # --- Markdown 报告生成函数 ---
 def generate_markdown_report(report_data, posts_count):
     """生成Markdown报告，增强错误处理 (复用 linuxdo-scraper 的格式)"""
     try:
         today_str = datetime.now().strftime("%Y-%m-%d")
-        filename = f"Reddit_{SUBREDDIT}_Daily_Report_{today_str}.md"
+        filename = f"reports/Reddit_{SUBREDDIT}_Daily_Report_{today_str}.md"
 
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(f"# Reddit r/{SUBREDDIT} 每日热帖报告 ({today_str})\n\n")
@@ -480,7 +576,7 @@ def generate_markdown_report(report_data, posts_count):
                 f.write("今日未能抓取到新帖子。\n")
                 
             # 渲染原始帖子列表
-            f.write("---\n\n")
+                f.write("---\n\n")
             f.write(f"## 📋 原始帖子列表 (共 {posts_count} 篇)\n\n")
             if posts:
                 for post in posts:
@@ -496,7 +592,7 @@ def generate_markdown_report(report_data, posts_count):
         return None
 
 # --- 主函数 (复用 linuxdo-scraper 的架构) ---
-def main():
+async def main():
     """改进的主函数，增强错误处理和监控"""
     start_time = datetime.now()
     logger.info("=== 开始执行 Reddit 爬虫任务 ===")
@@ -505,6 +601,15 @@ def main():
         # 检查环境变量
         if not DEEPSEEK_API_KEY:
             logger.error("未找到 DEEPSEEK_API_KEY 环境变量")
+            return False
+            
+        if not NEON_DB_URL:
+            logger.error("未找到 DATABASE_URL 环境变量")
+            return False
+        
+        # 创建数据库表
+        if not await create_posts_table():
+            logger.error("数据库表创建失败")
             return False
         
         # 第一步：获取基础帖子列表
@@ -546,7 +651,13 @@ def main():
         # 第三步：生成AI报告 (使用与 linuxdo-scraper 相同的架构)
         report_data = generate_ai_summary_report(detailed_posts)
         
-        # 第四步：生成报告文件
+        # 第四步：插入数据到数据库
+        if report_data.get('processed_posts'):
+            db_success = await insert_posts_into_db(report_data['processed_posts'])
+            if not db_success:
+                logger.error("数据库插入失败")
+        
+        # 第五步：生成报告文件
         json_file = generate_json_report(report_data, len(detailed_posts))
         md_file = generate_markdown_report(report_data, len(detailed_posts))
         
@@ -565,7 +676,7 @@ def main():
         return False
 
 if __name__ == "__main__":
-    success = main()
+    success = asyncio.run(main())
     if not success:
         logger.error("Reddit 爬虫任务执行失败")
         exit(1)
