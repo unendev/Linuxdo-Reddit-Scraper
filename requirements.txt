@@ -1,0 +1,17 @@
+# Core dependencies
+playwright==1.40.0
+playwright-stealth==1.0.6
+requests==2.32.5
+python-dotenv==1.1.1
+asyncpg==0.29.0
+
+# Data processing
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Logging and monitoring
+tqdm==4.67.1
+
+# Optional: For enhanced functionality
+aiohttp==3.9.5
+asyncio-throttle==1.0.2
