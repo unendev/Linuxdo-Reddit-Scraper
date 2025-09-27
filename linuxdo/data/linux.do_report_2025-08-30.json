@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "report_date": "2025-08-30",
+    "title": "Linux.do 每日热帖报告 (2025-08-30)",
+    "source": "Linux.do",
+    "post_count": 30
+  },
+  "summary": {
+    "overview": "今日社区技术氛围浓厚，围绕AI工具和开发效率展开热烈讨论，同时也关注生活问题和资源分享。",
+    "highlights": {
+      "tech_savvy": [
+        "AI IDE自动化工具：利用PySide6自制小工具，无感点击解决Codex、Trae IDE等AI IDE的运行确认问题，提升开发效率。",
+        "OpenWebUI权限管理：开发AI软件自助管理OpenWebUI模型列表可见性，通过加入/退出权限组控制模型。",
+        "ComfyUI老卡新用：十年老卡Tesla K80在ComfyUI上焕发新生。"
+      ],
+      "resources_deals": [
+        "giffgaff SIM卡优惠：英国giffgaff SIM卡9月促销，充10英镑到账25英镑，可转eSIM。",
+        "B站剧集券脚本：分享B站剧集券自动签到油猴脚本，方便用户领取。",
+        "OpenRouter+Banana免费生图：分享快速配置OpenRouter的免费Banana，一键启动Agent生图工具。"
+      ],
+      "hot_topics": [
+        "Augment额度变动：用户关注Augment额度的更新情况及其影响。",
+        "GPT5降智：用户反映GPT5性能下降，搜索和思考时间缩短。",
+        "Cursor订阅模式：用户担忧Cursor频繁变更订阅方案。"
+      ]
+    },
+    "conclusion": "今天又是技术改变生活，薅羊毛不能停的一天。"
+  },
+  "posts": [
+    {
+      "id": "919410",
+      "title": "谷歌邮箱注册现在怎么绕过手机号验证",
+      "url": "https://linux.do/t/topic/919410",
+      "analysis": {
+        "core_issue": "如何绕过谷歌邮箱注册时的手机号验证",
+        "key_info": [
+          "机场节点可能影响注册验证",
+          "相同机场节点不同用户体验不同"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919409",
+      "title": "两个不错的考公视频2025830",
+      "url": "https://linux.do/t/topic/919409",
+      "analysis": {
+        "core_issue": "分享考公相关的学习资源，特别是数量关系和言语理解两个方面。",
+        "key_info": [
+          "数量关系技巧分享（疑似B站链接）",
+          "言语理解技巧分享（疑似B站链接）"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919401",
+      "title": "AI ide无感知自动化继续：解codex的“Approve”、trae ide的“继续”、windsurf的“run”等等",
+      "url": "https://linux.do/t/topic/919401",
+      "analysis": {
+        "core_issue": "解决AI IDE (如 Codex, Trae IDE, Windsurf) 自动化运行中遇到的确认/继续等问题，通过自制Windows小工具实现无感点击。",
+        "key_info": [
+          "使用PySide6开发Windows小工具，实现对Codex的“Approve”、Trae IDE的“继续”、Windsurf的“run”等操作的自动化。",
+          "该工具具备无感点击、低性能占用、后台运行、自定义截图识别区域、保存配置等功能，并支持多屏幕。",
+          "项目开源地址：Rain-Of-Stars/Ai-IDE-Auto-run"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "919398",
+      "title": "求助：小腿胫骨右后方疼痛",
+      "url": "https://linux.do/t/topic/919398",
+      "analysis": {
+        "core_issue": "求助：长时间跑步和跳远后小腿胫骨右后方疼痛的原因、预防和快速痊愈方法。",
+        "key_info": [
+          "长时间慢跑和频繁三级跳远是诱因",
+          "疼痛部位：小腿胫骨右后方，按压/跑步/跳远时疼痛",
+          "医院检查正常，无明显外观特征",
+          "怀疑过度软组织损伤",
+          "寻求预防复发和快速痊愈的方法"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919395",
+      "title": "十年牢计算卡再度发力",
+      "url": "https://linux.do/t/topic/919395",
+      "analysis": {
+        "core_issue": "老旧Tesla K80显卡在ComfyUI上的应用",
+        "key_info": [
+          "Tesla K80可以在ComfyUI上运行",
+          "帖子有7个回复，4位参与者"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919392",
+      "title": "英国 giffgaff SIM卡（可转eSIM）官方 9 月促销， 激活开卡需充 10 英镑，实际到账得 25 英镑！！！",
+      "url": "https://linux.do/t/topic/919392",
+      "analysis": {
+        "core_issue": "英国giffgaff SIM卡9月促销活动，充值优惠力度大。",
+        "key_info": [
+          "giffgaff SIM卡可转eSIM",
+          "9月促销活动，激活开卡充10英镑，实际到账25英镑"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "919385",
+      "title": "用 AI 做了一个用户自助管理 OpenWebUI 权限组的软件",
+      "url": "https://linux.do/t/topic/919385",
+      "analysis": {
+        "core_issue": "用户无法自主管理OpenWebUI模型列表的可见性，需要管理员介入。",
+        "key_info": [
+          "开发了一个用户自助管理OpenWebUI权限组的软件。",
+          "用户可以通过加入/退出权限组来控制模型列表的可见性。",
+          "项目代码托管在GitHub上：github.com/xxtg666/OpenWebUI-Role-Claim"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919382",
+      "title": "老天爷又给我开了一个玩笑",
+      "url": "https://linux.do/t/topic/919382",
+      "analysis": {
+        "core_issue": "暗恋对象生日收到其与他人的亲密照片，情感受到打击。",
+        "key_info": [
+          "收到暗恋对象的照片，显示其与他人关系亲密",
+          "发帖者感受到巨大的心理落差，类似失恋"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "919380",
+      "title": "求企业门户网站类网站源码，需要带管理后台的",
+      "url": "https://linux.do/t/topic/919380",
+      "analysis": {
+        "core_issue": "求助企业门户网站源码，要求包含管理后台和产品展示功能。",
+        "key_info": [
+          "求企业门户网站源码",
+          "需要带管理后台",
+          "需要有产品展示功能"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919378",
+      "title": "Augment额度重大更新！！！！",
+      "url": "https://linux.do/t/topic/919378",
+      "analysis": {
+        "core_issue": "Augment额度进行了重大更新，具体更新时间和内容未知。",
+        "key_info": [
+          "Augment额度已更新，官网显示已更改。",
+          "可能存在信息来源错误，有用户认为社区号额度原本就是10。"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919375",
+      "title": "cursor的账单界面又又又改了",
+      "url": "https://linux.do/t/topic/919375",
+      "analysis": {
+        "core_issue": "用户担忧Cursor频繁变更订阅方案，未来可能无法满足其解析Github仓库的需求。",
+        "key_info": [
+          "用户是Cursor的年费用户，但无法退订。",
+          "Cursor频繁变更订阅方案。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919373",
+      "title": "用banana改涂装做痛车痛机痛死星",
+      "url": "https://linux.do/t/topic/919373",
+      "analysis": {
+        "core_issue": "讨论如何使用图像编辑工具将动漫人物形象涂装到飞机和死星等物体表面，以制作痛车、痛机、痛死星",
+        "key_info": [
+          "使用超写实战斗机作为涂装对象，将动漫女孩形象完整涂装到机身，要求还原形象、风格独特、细节丰富、光影逼真，画质8k",
+          "使用死星作为涂装对象，将动漫人物形象精确覆盖到球体表面，保持球体表面的阴影反光和细节、表面质感，画质8k"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919368",
+      "title": "今天感觉GPT5严重降智，搜索和思考时间明显变短",
+      "url": "https://linux.do/t/topic/919368",
+      "analysis": {
+        "core_issue": "用户反映GPT5的智能水平下降，搜索和思考时间变短",
+        "key_info": [
+          "GPT5性能下降",
+          "搜索和思考时间缩短"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919366",
+      "title": "Visual Studio Code除了Augment还有别的平替吗？",
+      "url": "https://linux.do/t/topic/919366",
+      "analysis": {
+        "core_issue": "寻求Visual Studio Code中Augment的替代方案，因为Augment目前无法使用。",
+        "key_info": [
+          "Augment目前无法使用，即使注册也无效。",
+          "用户寻求Visual Studio Code上的平替方案。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919365",
+      "title": "B站剧集券签到油猴脚本",
+      "url": "https://linux.do/t/topic/919365",
+      "analysis": {
+        "core_issue": "分享B站剧集券自动签到的油猴脚本。",
+        "key_info": [
+          "脚本可以自动签到B站剧集券",
+          "脚本允许自定义第三天签到的日期",
+          "提供了脚本的下载和更新地址",
+          "使用了jQuery库"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "919356",
+      "title": "第一次见纸箱子打开了还能合上的",
+      "url": "https://linux.do/t/topic/919356",
+      "analysis": {
+        "core_issue": "讨论一种可以重复开合的特殊纸箱子，并附带一些其他话题。",
+        "key_info": [
+          "纸箱子具有可重复开合的特性",
+          "提到了五颜六色的修正带，可能抗摔，有人计划进行抗摔测试"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "919350",
+      "title": "【深夜分享】如何快速配置OpenRouter的免费Banana，并一键启动Agent生图工具",
+      "url": "https://linux.do/t/topic/919350",
+      "analysis": {
+        "core_issue": "分享如何配置OpenRouter的免费Banana，并一键启动Agent生图工具。",
+        "key_info": [
+          "在OpenRouter上申请API Key。",
+          "在AionUi中配置OpenRouter API Key，生图工具会自动选择“OpenRouter-Gemini 2.5 flash image preview:free”模型。",
+          "检查Agent的工具列表中是否包含image-generation。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "919344",
+      "title": "圆通回应部分网点“停摆”：系经营管理不善，预计 8 月 31 日起陆续恢复",
+      "url": "https://linux.do/t/topic/919344",
+      "analysis": {
+        "core_issue": "圆通部分网点停摆是由于经营管理不善，预计8月31日起恢复。",
+        "key_info": [
+          "圆通回应部分网点“停摆”",
+          "系经营管理不善",
+          "预计 8 月 31 日起陆续恢复"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919335",
+      "title": "微信小程序后端的SQL攻击",
+      "url": "https://linux.do/t/topic/919335",
+      "analysis": {
+        "core_issue": "微信小程序后端遭遇SQL注入攻击尝试",
+        "key_info": [
+          "后端使用ORM框架，可以防御一定程度的SQL注入",
+          "尝试通过openid追踪攻击者",
+          "短时间内出现大量异常请求，怀疑是人为脚本攻击"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919323",
+      "title": "Vivaldi浏览器看抖音直播，很卡，无声音。chrome就没事，有人遇到过吗？",
+      "url": "https://linux.do/t/topic/919323",
+      "analysis": {
+        "core_issue": "Vivaldi浏览器观看抖音直播时出现卡顿和无声音问题，而Chrome浏览器则正常。",
+        "key_info": [
+          "Vivaldi浏览器观看抖音直播卡顿，无法加载画面或无声",
+          "Chrome浏览器观看抖音直播正常"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919320",
+      "title": "刚做API网关目前，你们做网站有自己做API网关吗？",
+      "url": "https://linux.do/t/topic/919320",
+      "analysis": {
+        "core_issue": "询问网站开发是否需要自建API网关以及业界实践。",
+        "key_info": [
+          "帖子询问API网关在网站开发中的必要性。",
+          "讨论了自建API网关的可能性。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919309",
+      "title": "请教Google AI Studio的疑惑",
+      "url": "https://linux.do/t/topic/919309",
+      "analysis": {
+        "core_issue": "询问Google AI Studio上传文件的方式，以及对现有上传方式的易用性和文件格式限制的疑问。",
+        "key_info": [
+          "Google AI Studio不支持目录上传。",
+          "Google AI Studio只能使用upload file上传文件，且有格式限制。",
+          "Gemini网页版可以上传目录，但用户感觉不如AI Studio好用。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919297",
+      "title": "求上海具身机器人行业内推",
+      "url": "https://linux.do/t/topic/919297",
+      "analysis": {
+        "core_issue": "求上海具身机器人行业相关职位内推",
+        "key_info": [
+          "本科机械工程专业，25岁",
+          "期望工作地点上海，职位方向包括海外销售、业务拓展、技术支持、产品经理等",
+          "学习能力强，抗压能力强，数据敏感"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919277",
+      "title": "前几天还被嘲笑的Codex似乎确凿站起来了（大约的确）",
+      "url": "https://linux.do/t/topic/919277",
+      "analysis": {
+        "core_issue": "Codex在代码辅助和文件修改方面的能力有所提升，相比其他模型表现更佳，但Claude Code存在一些问题。",
+        "key_info": [
+          "Codex在修改文件和解决Vim手残问题上表现良好，能根据上下文选择回复或修改文件。",
+          "Codex能识别终端问题并给出建议 (Ghostty终端图片支持)",
+          "Claude Code存在乱改代码和被截断的问题，目前A社正在修复。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919267",
+      "title": "vscode Codex 登录报错 怎么解决",
+      "url": "https://linux.do/t/topic/919267",
+      "analysis": {
+        "core_issue": "VS Code Codex登录报错的解决方法",
+        "key_info": [
+          "帖子标题提示问题与VS Code Codex登录相关",
+          "内容节选显示该问题已有多人参与讨论"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919265",
+      "title": "大家都怎么管理提示语",
+      "url": "https://linux.do/t/topic/919265",
+      "analysis": {
+        "core_issue": "如何有效管理大量的AI提示语（Prompt）",
+        "key_info": [
+          "收集了大量的AI提示语",
+          "目前使用GitHub项目进行管理，但感觉比较麻烦",
+          "寻求更便捷的提示语管理方法"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919263",
+      "title": "google pro 二次验证卡里没钱不能验证成功吗?",
+      "url": "https://linux.do/t/topic/919263",
+      "analysis": {
+        "core_issue": "Google Pro二次验证需要银行卡余额吗？",
+        "key_info": [
+          "可能需要验证银行卡是否有效",
+          "余额不足可能导致验证失败",
+          "寻找其他验证方式"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919262",
+      "title": "我用AI做了一个网页套壳论坛的应用",
+      "url": "https://linux.do/t/topic/919262",
+      "analysis": {
+        "core_issue": "分享一个使用AI制作的网页套壳论坛应用",
+        "key_info": [
+          "应用是由AI制作的",
+          "提供了下载地址",
+          "论坛有23个帖子和6位参与者"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919260",
+      "title": "求助下各位佬，找国外的亲友帮忙注册wise来给自己使用是否可行",
+      "url": "https://linux.do/t/topic/919260",
+      "analysis": {
+        "core_issue": "寻求通过国外亲友注册Wise卡以解决开通会员支付问题是否可行",
+        "key_info": [
+          "野卡跑路导致开通会员困难",
+          "Wise可以申请实体卡和虚拟卡",
+          "主要用途是开通各种会员",
+          "担心让国外亲友注册使用存在风险"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "919259",
+      "title": "被最近新闻号刷屏了，一天要睡几小时？",
+      "url": "https://linux.do/t/topic/919259",
+      "analysis": {
+        "core_issue": "对“每晚睡七小时才是最佳睡眠时长”这一说法的真实性和适用人群范围表示质疑，并探讨其背后是否存在商业推手。",
+        "key_info": [
+          "人民日报发文称最佳睡眠时长并非8小时，并引用研究《Association of Sleep Duration With All- and Major-Cause Mortality Among Adults in Japan, China, Singapore, and Korea》",
+          "质疑该研究样本（平均年龄54.5岁）是否能代表所有成年人",
+          "质疑新闻号集体发布类似信息背后是否存在商业利益驱动",
+          "探讨成年人睡眠时长是否应该因人而异"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    }
+  ]
+}

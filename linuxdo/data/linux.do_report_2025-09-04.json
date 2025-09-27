@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "report_date": "2025-09-04",
+    "title": "Linux.do 每日热帖报告 (2025-09-04)",
+    "source": "Linux.do",
+    "post_count": 30
+  },
+  "summary": {
+    "overview": "今日社区技术求助与资源分享并存，焦点集中在AI工具应用、游戏推荐与硬件问题解决上。",
+    "highlights": {
+      "tech_savvy": [
+        "Atlassian 6.1亿美元收购The Browser Company，旗下拥有Arc和Dia浏览器，标志浏览器领域的新动向。",
+        "Zai2api插件使CCR能够使用z.ai的glm-4.5模型，扩展了CCR的功能。",
+        "对比gemini cli, kilocode, claudecode+ccr三种模型在不同编程工具下生成前端代码的表现差异。"
+      ],
+      "resources_deals": [
+        "分享免费可自建项目整合awesome-selfhosted，助力用户搭建个人服务器应用。",
+        "空洞骑士：丝之歌XBOX阿根廷区1.49CNY，土耳其区9.76CNY，提供低价购买机会。",
+        "赠送Perplexity Pro一年成品号和帕米尔大学邮箱的抽奖活动。"
+      ],
+      "hot_topics": [
+        "用户讨论在家使用语音输入以提高效率的可行性，引发对语音输入技术在客服领域应用的关注。",
+        "电信用户反映降套餐受阻，体现用户对运营商服务体验的普遍诉求。",
+        "电信网络质量下降，高丢包率和网页连接问题引发用户对网络稳定性的担忧。"
+      ]
+    },
+    "conclusion": "技术浪潮下的社区百态：有人在为新工具欢呼雀跃，有人在为网络问题焦头烂额，也有人默默分享着知识与温暖。"
+  },
+  "posts": [
+    {
+      "id": "930549",
+      "title": "Dia 浏览器",
+      "url": "https://linux.do/t/topic/930549",
+      "analysis": {
+        "core_issue": "Atlassian 以 6.1 亿美元收购 The Browser Company，该公司拥有 Arc 和 Dia 浏览器。",
+        "key_info": [
+          "Atlassian 收购 The Browser Company",
+          "收购金额为 6.1 亿美元",
+          "The Browser Company 旗下产品包括 Arc 和 Dia 浏览器"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "930547",
+      "title": "求助一个Lunes Host服务器的问题",
+      "url": "https://linux.do/t/topic/930547",
+      "analysis": {
+        "core_issue": "Lunes Host服务器注册后无法访问，出现503错误。",
+        "key_info": [
+          "无法通过自己编写的appTest.js访问服务器地址。",
+          "参考了linux.do论坛上的一个帖子寻求解决方案。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930544",
+      "title": "banana报错500",
+      "url": "https://linux.do/t/topic/930544",
+      "analysis": {
+        "core_issue": "使用JavaScript请求banana服务时出现500错误，可能与key的使用方式有关。",
+        "key_info": [
+          "js请求banana服务报错500",
+          "AI Studio的key在Python请求测试正常，但在js本地请求出现问题",
+          "js请求最初出现间歇性失败，随后全部返回500"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930539",
+      "title": "magisk开了zygisk重启，root权限没了怎么回事？",
+      "url": "https://linux.do/t/topic/930539",
+      "analysis": {
+        "core_issue": "Magisk启用Zygisk后重启导致Root权限丢失。",
+        "key_info": [
+          "帖子内容过于简短，无法提取有效信息。",
+          "需要更多信息才能确定问题原因和解决方案。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "930537",
+      "title": "最近一段时间，在家的时候我基本上都用语音输入(各种场景)",
+      "url": "https://linux.do/t/topic/930537",
+      "analysis": {
+        "core_issue": "探讨在企业客服中心推广使用语音输入以提高效率的可行性。",
+        "key_info": [
+          "语音输入能显著提高客服文字输入效率。",
+          "当前语音输入准确率高，修改需求少。",
+          "希望了解是否有企业尝试过推广客服使用语音输入。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930536",
+      "title": "影视飓风传了个100个小时的视频...4K居然有600G！",
+      "url": "https://linux.do/t/topic/930536",
+      "analysis": {
+        "core_issue": "影视飓风上传了一个100小时的超长4K视频到B站，文件大小为600G。",
+        "key_info": [
+          "视频时长为100小时",
+          "视频分辨率为4K",
+          "视频大小为600G",
+          "视频内容为荒岛直播回放",
+          "视频作者为飓多多StormCrew",
+          "观看超长视频需要更新B站APP到最新版本"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930531",
+      "title": "播客-《我们为什么吃（太多）》：减肥它为什么就这么难！-纵横四海",
+      "url": "https://linux.do/t/topic/930531",
+      "analysis": {
+        "core_issue": "讨论减肥的困难以及饮食过多的原因。",
+        "key_info": [
+          "播客节目《我们为什么吃（太多）》",
+          "纵横四海EP71期节目"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930530",
+      "title": "关于 Youtube Music 有一些疑问",
+      "url": "https://linux.do/t/topic/930530",
+      "analysis": {
+        "core_issue": "询问关于Youtube Music的使用技巧，包括去广告插件和经验分享。",
+        "key_info": [
+          "寻找Youtube Music去广告插件",
+          "寻求Youtube Music使用技巧和经验分享"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930527",
+      "title": "空洞骑士 丝之歌 （25/9/4）XBOX 阿区1.49CNY，土区9.76cny",
+      "url": "https://linux.do/t/topic/930527",
+      "analysis": {
+        "core_issue": "空洞骑士：丝之歌在XBOX平台阿根廷区和土耳其区低价促销信息",
+        "key_info": [
+          "阿根廷区价格为1.49 CNY",
+          "土耳其区价格为9.76 CNY",
+          "存在锁区风险，但发帖者暗示有解决方法"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "930523",
+      "title": "【分享】丝之歌假入库资源",
+      "url": "https://linux.do/t/topic/930523",
+      "analysis": {
+        "core_issue": "分享《丝之歌》的疑似破解资源，声称支持正版。",
+        "key_info": [
+          "提供了一个名为Silksong.zip的压缩包下载链接",
+          "声称解压后拖入SteamTools即可使用",
+          "帖子中包含Steam商店链接（https://store.steampowered.com/app/1030300/）指向《丝之歌》正版"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "930522",
+      "title": "推荐一个治愈系博主",
+      "url": "https://linux.do/t/topic/930522",
+      "analysis": {
+        "core_issue": "推荐一个治愈系博主",
+        "key_info": [
+          "博主ID: @Linksphotograph",
+          "平台: 小破站 (B站), 抖音 (dy)",
+          "视频内容可以治愈心情低落"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930519",
+      "title": "求助下windows sandbox问题",
+      "url": "https://linux.do/t/topic/930519",
+      "analysis": {
+        "core_issue": "Windows Sandbox中Edge浏览器白屏问题，更新系统后出现。",
+        "key_info": [
+          "系统版本为26100.4946",
+          "白屏问题仅出现在Sandbox中的浏览器，vscode和依赖webview2的程序正常",
+          "怀疑与LTSC系统有关"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930511",
+      "title": "大家都是怎么得到别人的点赞？求技巧",
+      "url": "https://linux.do/t/topic/930511",
+      "analysis": {
+        "core_issue": "如何提高论坛帖子获赞数量",
+        "key_info": [
+          "发帖数量可能影响获赞数",
+          "积极给他人点赞可能增加自身获赞机会"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930509",
+      "title": "电信降套餐真麻烦",
+      "url": "https://linux.do/t/topic/930509",
+      "analysis": {
+        "core_issue": "用户反映电信合约到期后线上降套餐受阻，被要求前往营业厅办理。",
+        "key_info": [
+          "原套餐199元融合套餐（打折后139元），包含上行80M，两年合约。",
+          "用户希望将到期后的套餐改为129元套餐，但客服告知即使更改，到期后当月仍按199元收费。",
+          "用户对线上降套餐的困难表示不满，并考虑投诉。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930506",
+      "title": "nano banana给我生成的二次元证件照，还挺好玩",
+      "url": "https://linux.do/t/topic/930506",
+      "analysis": {
+        "core_issue": "用户分享使用nano banana生成的二次元证件照的体验。",
+        "key_info": [
+          "使用了用户的丑照生成二次元证件照",
+          "用户认为效果有趣"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "930505",
+      "title": "家里我爸从沙特弄过来6000沙币，想换成人民币，但是去了成都也没换到，现在不知道有啥办法了",
+      "url": "https://linux.do/t/topic/930505",
+      "analysis": {
+        "core_issue": "用户寻求将6000沙特里亚尔（沙币）兑换成人民币的途径。",
+        "key_info": [
+          "金额为6000沙特里亚尔",
+          "地点在成都无法兑换"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930504",
+      "title": "发个zorocloud 盲盒征集帖",
+      "url": "https://linux.do/t/topic/930504",
+      "analysis": {
+        "core_issue": "征集ZoroCloud盲盒配置信息，了解盲盒的具体配置和名称。",
+        "key_info": [
+          "通过截图评论的方式征集盲盒信息",
+          "线路测试脚本bash是已知的一种盲盒配置"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930498",
+      "title": "梁文峰给deepseek团队下死命令-ai智能体",
+      "url": "https://linux.do/t/topic/930498",
+      "analysis": {
+        "core_issue": "DeepSeek计划于2025年底推出与OpenAI竞争的AI代理人。",
+        "key_info": [
+          "DeepSeek致力于开发能够自主执行多步骤任务、学习并改进的AI系统。",
+          "该项目被视为中国国家级的策略竞争，旨在国际AI舞台上占据一席之地。"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930495",
+      "title": "zai2api支持工具调用后续",
+      "url": "https://linux.do/t/topic/930495",
+      "analysis": {
+        "core_issue": "作者分享了为CCR编写的插件，该插件允许CCR使用z.ai上的glm-4.5模型，从而扩展CCR的功能。",
+        "key_info": [
+          "该插件允许CCR接入z.ai的glm-4.5模型，理论上可以同时接入4.5v和websearch，使CCR能够识别图片和网络搜索。",
+          "插件代码已开源，并提供了GitHub gist地址供其他开发者优化。",
+          "目前插件不支持搜索和图片功能，作者因工作繁忙无法完成全部功能开发。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930493",
+      "title": "应该说幸运还是不幸呢？丝之歌玩家干爆steam（我猜的）",
+      "url": "https://linux.do/t/topic/930493",
+      "analysis": {
+        "core_issue": "Steam加载问题可能与丝之歌玩家活动有关。",
+        "key_info": [
+          "Steam加载不出来",
+          "等待，稍安勿躁"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "930490",
+      "title": "PL/SQL Developer的工具，查询系统时间总是，美国时间，与中国时间差8小时3分钟，怎么设置？我是Oracle23AI",
+      "url": "https://linux.do/t/topic/930490",
+      "analysis": {
+        "core_issue": "PL/SQL Developer查询系统时间显示为美国时间，与中国时间相差8小时3分钟，询问如何设置。",
+        "key_info": [
+          "Oracle环境变量设置",
+          "时区设置"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930481",
+      "title": "测试gemini cli在不同编程工具的表现",
+      "url": "https://linux.do/t/topic/930481",
+      "analysis": {
+        "core_issue": "对比gemini cli, kilocode, claudecode+ccr三种模型在不同编程工具下生成前端代码的表现差异。",
+        "key_info": [
+          "gemini cli生成的代码卡片周围有阴影，鼠标悬停动画流畅，但各个天气卡片存在视觉缺陷。",
+          "kilocode生成的代码天气卡片动画效果正常，但卡片周围没有阴影，鼠标悬停动画相对生硬，页面布局未居中。",
+          "claudecode+ccr生成的代码鼠标悬停晴天卡片时会出现白线，但天气卡片内动画效果正常。"
+        ],
+        "post_type": "产品评测",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930480",
+      "title": "Perplexity Pro一年成品号*1，附赠帕米尔大学邮箱一个",
+      "url": "https://linux.do/t/topic/930480",
+      "analysis": {
+        "core_issue": "赠送Perplexity Pro一年成品号和帕米尔大学邮箱的抽奖活动",
+        "key_info": [
+          "奖品为Perplexity Pro一年成品号和一个帕米尔大学邮箱",
+          "活动截止时间为2025年9月6日22点",
+          "参与方式为点赞并回复帖子",
+          "抽奖方式为LINUX DO抽奖程序随机抽取"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930476",
+      "title": "curs0rgo 不能用了？",
+      "url": "https://linux.do/t/topic/930476",
+      "analysis": {
+        "core_issue": "用户反映 curs0rgo 工具无法使用，且仓库已被删除。",
+        "key_info": [
+          "curs0rgo 工具无法使用",
+          "相关仓库已被删除"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930475",
+      "title": "白嫖Claude系列模型还有希望吗？",
+      "url": "https://linux.do/t/topic/930475",
+      "analysis": {
+        "core_issue": "分享的公益Claude模型对话接口因上游管控失效，寻求其他白嫖Claude模型的渠道。",
+        "key_info": [
+          "之前分享的公益Claude接口因上游管控失效。",
+          "目前仅剩下Deepseek和ZLM系列模型。",
+          "寻求其他可以免费使用的Claude模型渠道。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930474",
+      "title": "推荐大家一个steam单机小游戏",
+      "url": "https://linux.do/t/topic/930474",
+      "analysis": {
+        "core_issue": "推荐一款Steam单机像素刷怪升级游戏，并征集其他游戏推荐。",
+        "key_info": [
+          "推荐游戏：替身幸存者",
+          "游戏类型：像素, 刷怪升级",
+          "需求：推荐其他好游戏"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930468",
+      "title": "电信qos严重了吗",
+      "url": "https://linux.do/t/topic/930468",
+      "analysis": {
+        "core_issue": "电信网络质量下降，出现高丢包率和网页连接问题。",
+        "key_info": [
+          "丢包率直线上升，ping百度有10%丢包率",
+          "首次开启网页过半概率出现建立安全连接失败"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "930463",
+      "title": "看到好多人在问有服务器能做什么，分享一个很全的免费可自建项目整合awesome-selfhosted",
+      "url": "https://linux.do/t/topic/930463",
+      "analysis": {
+        "core_issue": "分享一个免费可自建项目整合资源awesome-selfhosted，方便用户在自己的服务器上部署各种应用。",
+        "key_info": [
+          "awesome-selfhosted.net提供了大量可在服务器上托管的free软件网络服务和网络应用程序列表。",
+          "该列表在GitHub上开源，方便用户查找和选择自己需要的应用。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "930460",
+      "title": "女朋友国庆生日，我打算买NS2，大家有什么建议吗",
+      "url": "https://linux.do/t/topic/930460",
+      "analysis": {
+        "core_issue": "为国庆生日的女朋友购买NS2作为礼物，寻求购买建议和注意事项。",
+        "key_info": [
+          "NS国行不推荐购买，可以考虑港版。",
+          "询问NS2目前的价格是否合理，是否应该购买NS1。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "930457",
+      "title": "完了 移动硬盘坏了-函数不正确",
+      "url": "https://linux.do/t/topic/930457",
+      "analysis": {
+        "core_issue": "移动硬盘损坏导致数据丢失，用户寻求帮助或解决方案。",
+        "key_info": [
+          "硬盘内包含未备份的照片和资料。",
+          "用户可能需要数据恢复服务或软件。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "report_date": "2025-09-02",
+    "title": "Linux.do 每日热帖报告 (2025-09-02)",
+    "source": "Linux.do",
+    "post_count": 30
+  },
+  "summary": {
+    "overview": "今日社区围绕AI应用、开发求助和资源分享展开热烈讨论，开发者们积极探索AI工具的使用和问题解决，同时关注优惠信息。",
+    "highlights": {
+      "tech_savvy": [
+        "Kilo Code搭配国外服务器GPT和Gemini在JetBrains IDE中体验良好。",
+        "分享Supabase保活在Cloudflare Workers上的部署代码。",
+        "提供加密货币关键词和域名分流规则集（sing-box格式）"
+      ],
+      "resources_deals": [
+        "Cloudflare Warp Pro 优惠码分享，提供两个月的免费使用。",
+        "庆祝抗战胜利80周年，抽奖送德国小鸡VPS和支付宝口令红包。",
+        "AI驱动的个性化英语学习网站TalkGo即将上线。"
+      ],
+      "hot_topics": [
+        "使用AI完成项目，如同玩跑团游戏，充满不确定性。",
+        "OpenRouter低成本账号获取渠道讨论。",
+        "如何选择靠谱的医生，避免诊疗陷阱的讨论。"
+      ]
+    },
+    "conclusion": "AI浪潮依旧澎湃，求索之路漫漫，优惠福利聊胜于无，人间自有真情在。"
+  },
+  "posts": [
+    {
+      "id": "925801",
+      "title": "太爽了，终于吃上ai细糠了",
+      "url": "https://linux.do/t/topic/925801",
+      "analysis": {
+        "core_issue": "分享在 JetBrains IDE 中使用 AI 插件的经验，特别是 Kilo Code 配合国外服务器 GPT 和 Gemini 2.5 Pro 的使用体验。",
+        "key_info": [
+          "Kilo Code + 国外服务器 GPT + Gemini 2.5 Pro 在 JetBrains IDE 中使用效果良好。",
+          "Claude Code Router 代理地址需要添加 \"/\" 才能设置成功。",
+          "Kilo Code 是目前在 JetBrains IDE 中比较顺手的 AI 插件。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925797",
+      "title": "立创开发板的esp32s3怎么在platformio开发?",
+      "url": "https://linux.do/t/topic/925797",
+      "analysis": {
+        "core_issue": "立创开发板ESP32S3在PlatformIO环境下上传固件后串口无输出，程序无法启动。",
+        "key_info": [
+          "开发板为立创开发板ESP32S3",
+          "开发环境为PlatformIO",
+          "配置信息中使用了esp32-s3-devkitc-1",
+          "配置文件显示闪存大小为8M",
+          "串口没有输出导致程序无法启动"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925796",
+      "title": "佬们来推荐下冷门粤语歌",
+      "url": "https://linux.do/t/topic/925796",
+      "analysis": {
+        "core_issue": "寻求冷门粤语歌曲推荐。",
+        "key_info": [
+          "希望推荐粤语歌曲",
+          "对网易云私人FM推荐的歌曲不太满意",
+          "对歌曲类型没有其他限制"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925788",
+      "title": "感觉现在用ai完成项目，像是在玩跑团",
+      "url": "https://linux.do/t/topic/925788",
+      "analysis": {
+        "core_issue": "使用AI完成项目类似于跑团游戏，充满了不确定性和乐趣。",
+        "key_info": [
+          "使用AI完成项目需要预先定义AI的角色、技能和任务。",
+          "需要像跑团游戏一样设计剧本，引导AI完成任务。",
+          "大模型的结果具有随机性，类似于骰子，存在成功和失败的可能性。"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925784",
+      "title": "openrouter的10刀号 有没有渠道搞",
+      "url": "https://linux.do/t/topic/925784",
+      "analysis": {
+        "core_issue": "寻求低成本获取OpenRouter 10美元余额账号的渠道。",
+        "key_info": [
+          "希望获取余额即将用完的OpenRouter账号",
+          "主要目的是使用OpenRouter，但不想一次性充值10美元"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925782",
+      "title": "当你在看病的时候，你在看什么--筛选你的手术/主诊医生不完全指南（偏见版）",
+      "url": "https://linux.do/t/topic/925782",
+      "analysis": {
+        "core_issue": "如何选择靠谱的医生，避免诊疗陷阱。",
+        "key_info": [
+          "选择高年资主治或副高职称的医生，避免过度追求职称。",
+          "警惕文章特别多的年轻医生，提问专业问题验证其临床能力。",
+          "注意纯基础出身的医生可能缺乏临床经验。",
+          "通过患者群了解医生诊疗情况，关注实际诊疗医生是否专业。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "925746",
+      "title": "发个学习笔记~李宏毅老师的第2节深度学习",
+      "url": "https://linux.do/t/topic/925746",
+      "analysis": {
+        "core_issue": "分享李宏毅老师深度学习课程的学习笔记及相关链接。",
+        "key_info": [
+          "帖子内容包含李宏毅老师深度学习课程的学习笔记要点。",
+          "提供了B站和油管上李宏毅老师课程的链接。",
+          "提到了作者之前的机器学习学习笔记帖子。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925744",
+      "title": "这个功能有平替吗？？？最好是能总结网页而且可以标记原文位置引用的",
+      "url": "https://linux.do/t/topic/925744",
+      "analysis": {
+        "core_issue": "寻求能够总结网页并标记原文位置引用的功能平替方案。",
+        "key_info": [
+          "帖子寻求网页总结功能",
+          "需要具备原文位置标记引用能力",
+          "希望找到替代方案"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925743",
+      "title": "刚刚下了个discord，不知道怎么用",
+      "url": "https://linux.do/t/topic/925743",
+      "analysis": {
+        "core_issue": "询问Discord的使用方法和功能。",
+        "key_info": [
+          "Discord新手求助，希望了解基本功能",
+          "帖子中包含L站徽章盘点，并承诺长期更新",
+          "涉及到文档共建和入门徽章的获取方式"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925742",
+      "title": "发个学习笔记~李宏毅老师的第1节机器学习",
+      "url": "https://linux.do/t/topic/925742",
+      "analysis": {
+        "core_issue": "讨论B站上李宏毅机器学习课程的年份问题，并指出其为油管搬运。",
+        "key_info": [
+          "B站上的李宏毅机器学习课程可能是年份造假，实际为2021年内容。",
+          "油管上存在李宏毅老师2021年的机器学习课程原视频。",
+          "帖子还提到了李宏毅老师的第二节深度学习课程笔记。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925736",
+      "title": "丢两个 Warp pro 优惠码",
+      "url": "https://linux.do/t/topic/925736",
+      "analysis": {
+        "core_issue": "分享Cloudflare Warp Pro 优惠码",
+        "key_info": [
+          "提供两个月的Warp Pro优惠码",
+          "优惠码需要新账号注册才能使用"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925733",
+      "title": "Gemini 提示“出了点问题”",
+      "url": "https://linux.do/t/topic/925733",
+      "analysis": {
+        "core_issue": "Gemini模型出现“出了点问题”的错误提示，用户寻求解决方案。",
+        "key_info": [
+          "帖子属于求助性质",
+          "帖子有33个回复，11位参与者，可以进一步挖掘信息"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925729",
+      "title": "庆祝抗战胜利80周年，抽奖：一台🇩🇪德国小鸡VPS",
+      "url": "https://linux.do/t/topic/925729",
+      "analysis": {
+        "core_issue": "论坛帖子发起抽奖活动，庆祝抗战胜利80周年，奖品为德国VPS。",
+        "key_info": [
+          "奖品为德国VPS二选一",
+          "活动截止时间为09.03 12:00",
+          "参与方式为回复指定内容并点赞",
+          "中奖者将在活动结束后6小时内公布",
+          "中奖者需在24小时内联系发起人，否则视为放弃"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925719",
+      "title": "经过两天设计佬友们关注的AI学习网站要上线啦!!!",
+      "url": "https://linux.do/t/topic/925719",
+      "analysis": {
+        "core_issue": "AI驱动的个性化英语学习网站即将上线，旨在解决传统英语学习效率低、不个性化的问题。",
+        "key_info": [
+          "网站名为TalkGo，由GPT起名。",
+          "核心功能包括：混合输入语法纠错、英文水平评判、场景社区、个性化单词和水平记忆、学习目的设定。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925716",
+      "title": "佬们，offer选择求建议",
+      "url": "https://linux.do/t/topic/925716",
+      "analysis": {
+        "core_issue": "Offer选择：A公司驻场开发但可能轻松，B公司AI方向但面试体验差且有加班，薪资相同，求建议。",
+        "key_info": [
+          "A公司需要驻场开发，后期可能出差，面试体验中规中矩。",
+          "B公司做AI方向业务，但本人与AI核心技术无关，有算法团队，每周加班2小时，有加班费，面试体验差，但公司发展前景可能更好。",
+          "两家公司薪资相同。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "925710",
+      "title": "【深夜分享】Banana创意图像融合失败案例分享",
+      "url": "https://linux.do/t/topic/925710",
+      "analysis": {
+        "core_issue": "分享使用Banana进行图像融合的失败案例，并展示实验过程和结果。",
+        "key_info": [
+          "使用Banana进行猫和狗的艺术融合尝试失败。",
+          "尝试将人物与车辆融合，但效果不理想。",
+          "尝试将人物的样貌保持不变，但替换为其他造型和姿势，结果出现扭曲和不协调。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925703",
+      "title": "有没有什么AI工具或提示词可以画出一本书或视频的人物关系的？",
+      "url": "https://linux.do/t/topic/925703",
+      "analysis": {
+        "core_issue": "询问是否存在能够自动总结书籍或视频人物关系并以图谱形式展示的AI工具或提示词。",
+        "key_info": [
+          "寻找能够总结书籍或视频人物关系的AI工具",
+          "希望以图谱形式展现人物关系"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925701",
+      "title": "Supabase 保活[Cloudflare Workers部署]",
+      "url": "https://linux.do/t/topic/925701",
+      "analysis": {
+        "core_issue": "分享在Cloudflare Workers上部署Supabase保活方案的实现代码和方法。",
+        "key_info": [
+          "提供了用于Cloudflare Workers的Supabase保活代码",
+          "包含解析和验证Supabase配置的工具函数",
+          "强调了Supabase配置中必要的字段（name, supabase_url, supabase_key, table_name）"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925698",
+      "title": "steam同区加入家庭组失败",
+      "url": "https://linux.do/t/topic/925698",
+      "analysis": {
+        "core_issue": "Steam同区加入家庭组失败",
+        "key_info": [
+          "朋友邀请加入家庭组",
+          "接受邀请失败"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925693",
+      "title": "怎样才能快速恢复精力？",
+      "url": "https://linux.do/t/topic/925693",
+      "analysis": {
+        "core_issue": "如何在睡眠不足的情况下快速恢复精力以应对重要事务。",
+        "key_info": [
+          "快速恢复精力的方法 (5-10分钟内)",
+          "针对睡眠不足，第二天精神不振的状况"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925686",
+      "title": "如何借助qwen code自主开发一个代理工具？",
+      "url": "https://linux.do/t/topic/925686",
+      "analysis": {
+        "core_issue": "探讨如何使用qwen code自主开发代理工具。",
+        "key_info": [
+          "了解代理软件所需的工具",
+          "使用qwen code进行开发"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925680",
+      "title": "疑问，gpt上的那些用户收费项目的链接是怎么搞的？",
+      "url": "https://linux.do/t/topic/925680",
+      "analysis": {
+        "core_issue": "询问如何在ChatGPT上接入用户收费项目链接。",
+        "key_info": [
+          "用户想知道如何在ChatGPT上添加收费项目链接",
+          "帖子中提到了Karma.Domains的SEO Expired Domains Finder 和 Veo3 Prompt Machine这两个例子，它们是收费的"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925676",
+      "title": "求问华为的级别",
+      "url": "https://linux.do/t/topic/925676",
+      "analysis": {
+        "core_issue": "询问华为15级对应的级别和晋升所需时间，以及与阿里职级的对应关系。",
+        "key_info": [
+          "华为职级体系",
+          "华为15级所需工作年限",
+          "华为职级与阿里职级对应关系"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925675",
+      "title": "【求助！！！】Codex Vscode 插件 能否找回 Session 记录",
+      "url": "https://linux.do/t/topic/925675",
+      "analysis": {
+        "core_issue": "Codex Vscode插件更新后丢失Session记录，寻求恢复方法。",
+        "key_info": [
+          "使用Codex插件，系统环境为Windows，编辑器为Vscode。",
+          "更新Vscode导致之前的对话历史记录丢失，本地文件也丢失。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925664",
+      "title": "付费API中转推荐2.0",
+      "url": "https://linux.do/t/topic/925664",
+      "analysis": {
+        "core_issue": "寻求稳定且价格低于官方的综合API中转站推荐，覆盖Claude、GPT、Gemini等多种模型。",
+        "key_info": [
+          "需求：综合API中转站，包含Claude, GPT, Gemini, DS, Qwen等多种模型",
+          "需求：价格低于官方价",
+          "需求：稳定，避免短期跑路",
+          "已知信息：已了解始皇的oaipro"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925661",
+      "title": "Anthropic称 持续有害或辱骂性的用户会被结束对话",
+      "url": "https://linux.do/t/topic/925661",
+      "analysis": {
+        "core_issue": "Anthropic公司表示为了保护AI模型，对于持续有害或辱骂性的用户互动可能会结束对话。",
+        "key_info": [
+          "Anthropic可能会结束与持续有害或辱骂性用户的对话。",
+          "该政策旨在保护AI模型本身，而非人类用户。",
+          "帖子中有人质疑Anthropic是否使用用户数据训练模型。"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925660",
+      "title": "提供一个加密货币的关键词和域名分流规则集（sing-box格式）",
+      "url": "https://linux.do/t/topic/925660",
+      "analysis": {
+        "core_issue": "分享加密货币关键词和域名分流规则集，用于sing-box配置。",
+        "key_info": [
+          "提供了加密货币相关的域名和关键词分流规则集，适用于sing-box。",
+          "规则集中只包含域名和关键词，不包含IP，以避免误杀。",
+          "针对币安分流效果较好，其他交易所效果不保证。",
+          "目前的关键词匹配对cn域名误杀比较严重，需要进一步修改。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925649",
+      "title": "寻找大流量卡",
+      "url": "https://linux.do/t/topic/925649",
+      "analysis": {
+        "core_issue": "寻求购买大流量手机卡（至少235G）的渠道推荐。",
+        "key_info": [
+          "需要大流量卡，至少235G。",
+          "目标用户是学生群体。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925647",
+      "title": "matrix通信规范·贴纸·半自动上传·命令行",
+      "url": "https://linux.do/t/topic/925647",
+      "analysis": {
+        "core_issue": "分享一个用于半自动上传贴纸到Matrix通信服务器的命令行工具。",
+        "key_info": [
+          "提供了一个名为`sticker_uploader_noverify.py`的Python脚本，用于上传贴纸。",
+          "脚本使用`requests`库与Matrix服务器交互，需要提供homeserver地址和token。",
+          "脚本禁用了SSL验证警告。",
+          "提到了`im.ponies emoji protocol`。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "925643",
+      "title": "【T佬】庆祝抗战胜利80周年-抽奖： 100元支付宝口令红包 * 2",
+      "url": "https://linux.do/t/topic/925643",
+      "analysis": {
+        "core_issue": "庆祝抗战胜利80周年，楼主提供支付宝口令红包抽奖活动。",
+        "key_info": [
+          "抽奖内容为100元支付宝口令红包，共2个名额",
+          "参与方式为回复“勿忘国耻，振兴中华！”或对祖国的祝福",
+          "抽奖截止时间为2025年9月3日12:00 PM CST"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    }
+  ]
+}

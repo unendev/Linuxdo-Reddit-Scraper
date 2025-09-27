@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "report_date": "2025-09-22",
+    "title": "Linux.do 每日热帖报告 (2025-09-22)",
+    "source": "Linux.do",
+    "post_count": 30,
+    "generation_time": "2025-09-22T20:57:01.424528",
+    "status": "success"
+  },
+  "summary": {
+    "overview": "今日社区讨论焦点集中在AI模型更新与性能对比、各类实用工具的资源分享与使用求助，整体氛围活跃且技术导向明显。",
+    "highlights": {
+      "tech_savvy": [
+        "DeepSeek-V3.1-Terminus发布，优化了语言一致性和Agent能力",
+        "Qwen3-Omni全模态大模型发布，支持多模态输入并在多项基准测试中领先",
+        "通过修改System Prompt让Claude Code变得更爱思考的具体配置方法"
+      ],
+      "resources_deals": [
+        "1Password限时提供一年免费团队及家庭套餐",
+        "腾讯云可免费抽取永久CDN资源",
+        "Augment可能已开放注册，并分享临时邮箱资源"
+      ],
+      "hot_topics": [
+        "各大AI模型（GPT、Claude、Gemini、Grok）性能下降问题的对比讨论",
+        "支付宝‘碰一碰’功能从支付工具升级为综合服务入口的战略意义分析",
+        "港版Apple Watch Ultra 3购买渠道及与国行iPhone兼容性问题"
+      ]
+    },
+    "conclusion": "今天社区在AI的浪潮中冲浪，在代码的海洋里钓鱼，顺便还薅了一把云服务的羊毛。"
+  },
+  "posts": [
+    {
+      "id": "975444",
+      "title": "1password通行密钥怎么设置",
+      "url": "https://linux.do/t/topic/975444",
+      "analysis": {
+        "core_issue": "用户在使用1password设置通行密钥时遇到跳转到passage网址的问题，并询问是否需要额外下载软件。",
+        "key_info": [
+          "1password通行密钥设置过程中跳转到passage网址",
+          "用户不确定使用通行密钥是否需要下载passage软件"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975443",
+      "title": "gpt,claude,gemini,grok",
+      "url": "https://linux.do/t/topic/975443",
+      "analysis": {
+        "core_issue": "讨论gpt、claude、gemini、grok这几个AI模型中是否只有grok没有出现过性能下降的问题。",
+        "key_info": [
+          "提及了gpt、claude、gemini、grok四个AI模型",
+          "核心疑问是grok是否唯一没有降智过的模型"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "975437",
+      "title": "拼个claude code的车，只有佬友，还差2位",
+      "url": "https://linux.do/t/topic/975437",
+      "analysis": {
+        "core_issue": "发起拼车购买Claude Code服务的招募",
+        "key_info": [
+          "目标是拼一个只有‘佬友’（可能指资深用户或朋友）的车",
+          "目前还差2位参与者，价格为20x MAX（可能指20美元/月的Max套餐）"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975436",
+      "title": "github学生一直Pending",
+      "url": "https://linux.do/t/topic/975436",
+      "analysis": {
+        "core_issue": "用户反映GitHub学生认证一直处于Pending状态且免费额度未刷新。",
+        "key_info": [
+          "GitHub学生认证状态一直Pending",
+          "免费额度到期后没有自动刷新"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975433",
+      "title": "让你的Claude Code变得像Codex一样爱思考",
+      "url": "https://linux.do/t/topic/975433",
+      "analysis": {
+        "core_issue": "如何通过配置让Claude Code变得像Codex一样爱思考",
+        "key_info": [
+          "将Codex CLI的System Prompt复制到Claude Code进行覆盖",
+          "配置方法共5步，包括修改特定文件内容"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975423",
+      "title": "一个外链网盘的功能应该是什么？（或者如何贴合用户的需求？）",
+      "url": "https://linux.do/t/topic/975423",
+      "analysis": {
+        "core_issue": "作者开发了外链网盘系统LittlePan_v2，希望了解用户搭建外链网盘的需求以完善软件功能",
+        "key_info": [
+          "作者开发了开源外链网盘系统LittlePan_v2",
+          "寻求用户搭建外链网盘的需求和建议以完善软件"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975422",
+      "title": "搞了个模型掺假的2API",
+      "url": "https://linux.do/t/topic/975422",
+      "analysis": {
+        "core_issue": "一个名为2API的服务在模型名称映射上存在掺假行为，并提供了其API的使用信息。",
+        "key_info": [
+          "模型映射存在掺假，例如将chatgpt和gpt4o都映射为ChatGPT-5",
+          "API端点为2api.vup.lol，支持OpenAI格式但仅限非流式调用，超时时间约120秒",
+          "有效的配置参数仅有model、messages和temperature，屏蔽了Go-http-client"
+        ],
+        "post_type": "产品评测",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975419",
+      "title": "想入 Apple Watch Ultra 3 了怎么买港版？",
+      "url": "https://linux.do/t/topic/975419",
+      "analysis": {
+        "core_issue": "用户询问如何购买港版Apple Watch Ultra 3以使用国行版缺失的健康功能，并关心国行手机能否兼容。",
+        "key_info": [
+          "购买港版Apple Watch Ultra 3是为了使用国行版缺失的高血压通知和心电图app功能",
+          "寻求港版代购渠道并要求在周五前到货",
+          "询问国行版iPhone能否正常使用港版手表的上述健康功能"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975410",
+      "title": "上次被删帖子的原因",
+      "url": "https://linux.do/t/topic/975410",
+      "analysis": {
+        "core_issue": "用户反思自己因发言不够友善导致帖子被删除。",
+        "key_info": [
+          "认识到需要学习说话技巧和语文表达能力",
+          "后悔没有对相关人员进行截屏留证"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "975409",
+      "title": "回答佬友@Riverbed4668慵懒乖猫233关于支付宝碰一碰究竟有什么用的疑惑？",
+      "url": "https://linux.do/t/topic/975409",
+      "analysis": {
+        "core_issue": "解释支付宝碰一碰功能如何从支付工具升级为综合服务入口及其战略意义",
+        "key_info": [
+          "抢占用户心智，通过碰一碰比扫码更快直达支付，改变支付习惯",
+          "一碰三连，将支付入口转为服务总入口，串联收银、拉新和沉淀私域",
+          "一碰通城，结合智慧城市拓展使用场景，成为城市生活的快捷键"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975406",
+      "title": "《2025最美的夜》 | 有烟花的夜晚，才是最美的夜！",
+      "url": "https://linux.do/t/topic/975406",
+      "analysis": {
+        "core_issue": "帖子通过诗意的语言探讨了生命的意义与永恒的主题。",
+        "key_info": [
+          "描述了从出生到死亡的生命旅程",
+          "强调了灵魂的绽放如同灿烂的烟火",
+          "提及了通过成就他人来实现永恒"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975405",
+      "title": "serv00账号",
+      "url": "https://linux.do/t/topic/975405",
+      "analysis": {
+        "core_issue": "用户询问Serv00免费主机账号的保号注意事项、监控脚本以及购买账号的安全性",
+        "key_info": [
+          "Serv00账号保号需要注意的事项",
+          "监控Serv00是否有空余位置的脚本",
+          "在咸鱼购买的账号是否存在被找回的风险"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975398",
+      "title": "DeepSeek-V3.1-Terminus 官方测评",
+      "url": "https://linux.do/t/topic/975398",
+      "analysis": {
+        "core_issue": "DeepSeek-V3.1-Terminus版本发布及性能改进介绍",
+        "key_info": [
+          "缓解了中英文混杂、偶发异常字符等语言一致性问题",
+          "优化了Code Agent与Search Agent的Agent能力",
+          "提供了Hugging Face和ModelScope的开源版本下载地址",
+          "新模型输出效果相比前一版本更加稳定"
+        ],
+        "post_type": "产品评测",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975391",
+      "title": "求一张cursor截图",
+      "url": "https://linux.do/t/topic/975391",
+      "analysis": {
+        "core_issue": "用户因公司报销需要，求助获取Cursor付费服务的付款记录截图。",
+        "key_info": [
+          "用户需要一张9月份的Cursor付费截图",
+          "原因是公司本月可以报销，但用户本人一直是免费使用，没有付款记录"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "975378",
+      "title": "想问问各位佬联通号写入实体esim卡是否可行？🤗",
+      "url": "https://linux.do/t/topic/975378",
+      "analysis": {
+        "core_issue": "询问将联通手机号写入实体eSIM卡的可行性及操作方法。",
+        "key_info": [
+          "用户已拥有实体eSIM卡并想将联通号写入",
+          "提到联通App内有平板eSIM申请入口，询问是否可通过填写实体eSIM卡的EID和手机IMEI来申请"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975374",
+      "title": "1Password免费一年活动限时返场",
+      "url": "https://linux.do/t/topic/975374",
+      "analysis": {
+        "core_issue": "1Password限时提供为期一年的免费使用活动",
+        "key_info": [
+          "活动为限时返场",
+          "免费使用期限为一年",
+          "适用于团队、企业和家庭用户"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975373",
+      "title": "我勒个GPT降智，juice失效了，完全不思考",
+      "url": "https://linux.do/t/topic/975373",
+      "analysis": {
+        "core_issue": "用户抱怨GPT模型性能下降，无法进行思考，导致测试工具失效。",
+        "key_info": [
+          "GPT模型出现降智问题",
+          "测试工具juice因模型不思考而失效"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975372",
+      "title": "KDE 但是……为什么是gnome的图标？",
+      "url": "https://linux.do/t/topic/975372",
+      "analysis": {
+        "core_issue": "用户在KDE桌面环境中发现了GNOME的图标，对主题配置的混乱表示困惑和不满。",
+        "key_info": [
+          "KDE桌面环境中出现了GNOME的图标",
+          "用户对主题配置问题感到困扰"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "975369",
+      "title": "各位快去试试augment",
+      "url": "https://linux.do/t/topic/975369",
+      "analysis": {
+        "core_issue": "用户分享Augment注册成功但面板载入异常，并提供了临时邮箱资源",
+        "key_info": [
+          "Augment可能已解禁注册，用普通浏览器即可成功",
+          "用户面板持续载入，原因未知",
+          "分享临时邮箱资源https://mail.970410.xyz/供无域名用户注册"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975364",
+      "title": "Qwen发布Qwen3-Omni全模态大模型宣传视频",
+      "url": "https://linux.do/t/topic/975364",
+      "analysis": {
+        "core_issue": "Qwen发布新一代原生全模态大模型Qwen3-Omni，介绍其功能特点和性能优势",
+        "key_info": [
+          "Qwen3-Omni是新一代原生全模态大模型，能无缝处理文本、图像、音频和视频输入",
+          "在36项音频及音视频基准测试中斩获32项开源SOTA与22项总体SOTA，性能超越多个闭源强模型",
+          "支持119种文本语言交互、19种语音理解语言与10种语音生成语言",
+          "纯模型端到端音频对话延迟低至211ms，视频对话延迟低至507ms",
+          "支持长达30分钟音频理解、个性化system prompt定制和Function Call工具调用",
+          "开源通用音频Captioner模型Qwen3-Omni-30B-A3B-Captioner，填补开源社区空白"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975359",
+      "title": "Netcup地区",
+      "url": "https://linux.do/t/topic/975359",
+      "analysis": {
+        "core_issue": "询问选择Netcup服务器美东还是德国地区用于建站",
+        "key_info": [
+          "用途是建站，不跑PT",
+          "考虑的两个地区是美东和德国"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975356",
+      "title": "想问问有没有熟悉做思维导图/工作流可视化的佬",
+      "url": "https://linux.do/t/topic/975356",
+      "analysis": {
+        "core_issue": "询问视频中出现的功能全面的类思维导图/工作流可视化软件是什么",
+        "key_info": [
+          "视频1分41秒展示了一套类似ComfyUI、UE蓝图、Blender节点的系统",
+          "节点功能包括折叠按钮、自定义颜色标题栏、可见性图标、卡片内多节点、背景文字、自定义标签",
+          "国内外常见思维导图软件功能不全面，推测更接近工作流可视化工具",
+          "已询问多种AI和身边人均未得到答案"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975350",
+      "title": "腾讯云现在可以抽个免费的 cdn",
+      "url": "https://linux.do/t/topic/975350",
+      "analysis": {
+        "core_issue": "用户分享腾讯云可免费抽取永久CDN的活动信息。",
+        "key_info": [
+          "活动为免费抽取腾讯云CDN",
+          "中奖率很高，兑换后为永久",
+          "原帖因推荐链接被封，需自行搜索"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975342",
+      "title": "腾讯云有pages了.",
+      "url": "https://linux.do/t/topic/975342",
+      "analysis": {
+        "core_issue": "用户发现腾讯云推出了Pages服务并分享使用体验。",
+        "key_info": [
+          "腾讯云推出了类似Cloudflare Pages的服务",
+          "用户认为其在国内的访问速度比Cloudflare快"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975341",
+      "title": "DeepSeek更新了deepseekV3.1-terminus",
+      "url": "https://linux.do/t/topic/975341",
+      "analysis": {
+        "core_issue": "用户对DeepSeek模型新版本命名方式的变化及其含义提出疑问。",
+        "key_info": [
+          "DeepSeek更新了deepseekV3.1-terminus模型",
+          "模型名后缀首次使用单词而非日期",
+          "terminus意为终点，引发对V3系列是否终结的讨论"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975338",
+      "title": "人都闲麻了，求佬们推荐点闲着没事可以玩的事情",
+      "url": "https://linux.do/t/topic/975338",
+      "analysis": {
+        "core_issue": "用户快40岁，在北京感到无聊，寻求适合独自或安静进行的休闲活动推荐。",
+        "key_info": [
+          "用户年龄近40岁，坐标北京",
+          "希望寻找不需要太多社交、避开创业/业务话题的休闲方式",
+          "提及钓鱼作为潜在选项但缺乏了解"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975335",
+      "title": "DeepSeek线上模型已升级，当前版本号 DeepSeek-V3.1-Terminus",
+      "url": "https://linux.do/t/topic/975335",
+      "analysis": {
+        "core_issue": "DeepSeek线上模型已升级至DeepSeek-V3.1-Terminus版本",
+        "key_info": [
+          "deepseek-chat和deepseek-reasoner均已升级为新版本",
+          "改进了语言一致性和Agent能力"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975325",
+      "title": "真服了哪有 aff",
+      "url": "https://linux.do/t/topic/975325",
+      "analysis": {
+        "core_issue": "楼主分享腾讯云EdgeOne免费活动资源被误判为aff推广而感到不满",
+        "key_info": [
+          "腾讯云EdgeOne边缘安全加速平台提供免费套餐，包含不计量CDN流量和DDoS防护",
+          "楼主强调分享的资源已去除所有可能的aff参数，并指出腾讯云Pages服务响应速度较快"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "975321",
+      "title": "百度开源 Qianfan-VL系列视觉模型",
+      "url": "https://linux.do/t/topic/975321",
+      "analysis": {
+        "core_issue": "百度开源了Qianfan-VL系列多模态视觉语言模型。",
+        "key_info": [
+          "模型参数规模从3B到70B",
+          "专注于文档理解、OCR增强和推理能力",
+          "已在Hugging Face和ModelScope平台发布",
+          "提供了使用教程、技术博客和报告等资源"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "975320",
+      "title": "Vercel部署VitePress报错",
+      "url": "https://linux.do/t/topic/975320",
+      "analysis": {
+        "core_issue": "在Vercel上部署带有Twikoo评论功能的VitePress网站时出现构建错误",
+        "key_info": [
+          "部署平台为Vercel",
+          "项目使用VitePress并集成了Twikoo评论功能",
+          "构建过程中出现错误，具体错误信息未完整显示",
+          "发帖人请求社区帮助提交PR修复问题"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    }
+  ]
+}

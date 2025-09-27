@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "report_date": "2025-09-17",
+    "title": "Linux.do 每日热帖报告 (2025-09-17)",
+    "source": "Linux.do",
+    "post_count": 30,
+    "generation_time": "2025-09-17T22:12:48.766865",
+    "status": "success"
+  },
+  "summary": {
+    "error": "AI生成整体报告失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+    "overview": "今日AI总结生成失败，请查看日志。",
+    "highlights": {},
+    "conclusion": ""
+  },
+  "posts": [
+    {
+      "id": "964650",
+      "title": "今天再一次体验到了ai的强大 体验太好了",
+      "url": "https://linux.do/t/topic/964650",
+      "analysis": {
+        "core_issue": "用户利用AI成功解决了日本老游戏立绘文件的解包和修复问题",
+        "key_info": [
+          "GPT分析了有问题的游戏文件并返回了可查看的JPG图片",
+          "AI自动生成了批处理文件，提供了完整的解决方案"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "964636",
+      "title": "新人入站，Kiro Code抽两个",
+      "url": "https://linux.do/t/topic/964636",
+      "analysis": {
+        "core_issue": "楼主作为新人发布了一个Kiro Code的抽奖活动",
+        "key_info": [
+          "新人入站",
+          "抽两个Kiro Code",
+          "有9位参与者"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964632",
+      "title": "TensorFlow的黄昏，宣告“大教堂”时代的终结",
+      "url": "https://linux.do/t/topic/964632",
+      "analysis": {
+        "core_issue": "讨论AI开源领域从集中式的'大教堂'模式向开放式的'夜市'模式的变革。",
+        "key_info": [
+          "TensorFlow的衰落象征着'大教堂'开发时代的终结",
+          "AI开源领域正转向更开放、集市化的'夜市'模式"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964626",
+      "title": "求一份在wsl2下给codex配置mcp的教程",
+      "url": "https://linux.do/t/topic/964626",
+      "analysis": {
+        "core_issue": "用户在WSL2环境下为Codex配置MCP时遇到请求超时问题，寻求解决方案",
+        "key_info": [
+          "MCP在Windows平台已配置成功，但在WSL2中出现request timed out错误",
+          "已设置镜像源且命令行可启动MCP服务器，但Codex无法正常连接"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "964607",
+      "title": "快看快看，我也有金色小尾巴了",
+      "url": "https://linux.do/t/topic/964607",
+      "analysis": {
+        "core_issue": "用户分享获得金色小尾巴成就的喜悦心情",
+        "key_info": [
+          "用户表示不羡慕他人",
+          "提及28个帖子和18位参与者"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964603",
+      "title": "突发，Gemini 3.0 要来了！",
+      "url": "https://linux.do/t/topic/964603",
+      "analysis": {
+        "core_issue": "在Google Gemini CLI仓库的主分支代码中发现可能暗示Gemini 3.0即将发布的线索",
+        "key_info": [
+          "代码提交于9月12日，位于google-gemini/gemini-cli主分支",
+          "相关代码位于commentJson.test.ts文件的第44行和第122行"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "964600",
+      "title": "去年我国超六成初中生上普高，多地普高录取率超70%",
+      "url": "https://linux.do/t/topic/964600",
+      "analysis": {
+        "core_issue": "我国普通高中录取率持续提升，多地通过扩增学位等措施使普高录取率超过70%",
+        "key_info": [
+          "2024年全国普高招生人数首次突破千万，达1036.20万人，普高率为61.02%",
+          "合肥2024年普高录取率达72%，2025年提高到78.6%",
+          "济宁2025年中考普高比例达71.3%，公办高中录取占比79%",
+          "深圳2025年全市普高录取率超73%，公办普高录取率超52%"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "964599",
+      "title": "macos26这个应用程序怎么让他不显示手机app呀",
+      "url": "https://linux.do/t/topic/964599",
+      "analysis": {
+        "core_issue": "用户询问如何让macos26应用程序不显示手机app",
+        "key_info": [
+          "macos26应用程序",
+          "不显示手机app",
+          "设置或配置方法"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964598",
+      "title": "电影《731》明日上映，首日预售票房已破亿",
+      "url": "https://linux.do/t/topic/964598",
+      "analysis": {
+        "core_issue": "电影《731》首日预售票房突破1亿元",
+        "key_info": [
+          "影片《731》将于9月18日上映",
+          "截至9月17日20时08分，首日预售票房已破1亿",
+          "这是今年春节档后首部首日预售破亿的影片"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964596",
+      "title": "giffgaff语音信箱关闭",
+      "url": "https://linux.do/t/topic/964596",
+      "analysis": {
+        "core_issue": "用户询问giffgaff语音信箱是否已成功关闭",
+        "key_info": [
+          "用户刚激活giffgaff卡",
+          "用户提供截图询问语音信箱关闭状态确认"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964595",
+      "title": "多所高校宣布取消绩点制",
+      "url": "https://linux.do/t/topic/964595",
+      "analysis": {
+        "error": "API请求超时",
+        "core_issue": "API超时",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964585",
+      "title": "用ai写了个new-api直接接入cc，并可选择模型的小玩意",
+      "url": "https://linux.do/t/topic/964585",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964584",
+      "title": "Team换节点会不会直接被拿下呀",
+      "url": "https://linux.do/t/topic/964584",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964575",
+      "title": "codex有降智的操作吗，对比CC怎么样？",
+      "url": "https://linux.do/t/topic/964575",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964570",
+      "title": "iPhone17系列的温度",
+      "url": "https://linux.do/t/topic/964570",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964569",
+      "title": "真正的国服商人",
+      "url": "https://linux.do/t/topic/964569",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964568",
+      "title": "[开源]自制操作系统项目: 一个实验性的玩具操作系统 CoolPotOS",
+      "url": "https://linux.do/t/topic/964568",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964565",
+      "title": "谁能解决augment终端问题，送15个试用号",
+      "url": "https://linux.do/t/topic/964565",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964560",
+      "title": "面向进阶用户的 Windows PC 使用建议",
+      "url": "https://linux.do/t/topic/964560",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964558",
+      "title": "有些插件居然吃内存需要十几G？（流氓插件啊）",
+      "url": "https://linux.do/t/topic/964558",
+      "analysis": {
+        "core_issue": "某些插件占用内存过高，达到十几GB，被用户视为流氓行为",
+        "key_info": [
+          "插件内存占用过高",
+          "建议监控IDE内存使用"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964556",
+      "title": "gpt手机版一切后台就断网",
+      "url": "https://linux.do/t/topic/964556",
+      "analysis": {
+        "core_issue": "用户反映手机版GPT应用在切换至后台时出现断网问题",
+        "key_info": [
+          "问题设备为一加Ace5手机",
+          "切出应用后显示网络连接断开"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964550",
+      "title": "苹果回应更新 iOS 26 后 iPhone 掉电快、发热等原因，称通常几天内恢复正常",
+      "url": "https://linux.do/t/topic/964550",
+      "analysis": {
+        "core_issue": "苹果解释iOS 26更新后iPhone短期电池续航下降和发热增加的原因及应对措施",
+        "key_info": [
+          "系统更新后需在后台完成数据和文件索引、下载新资源和更新应用，导致短期内硬件资源占用增加",
+          "新功能可能持续消耗更多处理能力和电池，长期续航和性能变化依赖个人使用习惯"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "964542",
+      "title": "全年不落 和 种子用户 有新的显示图标欸",
+      "url": "https://linux.do/t/topic/964542",
+      "analysis": {
+        "core_issue": "用户发现论坛中“全年不落”和“种子用户”身份有了新的显示图标，并询问是否还有其他新变化。",
+        "key_info": [
+          "“全年不落”用户组有了新的显示图标",
+          "“种子用户”用户组有了新的显示图标"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964541",
+      "title": "RikkaHub是不支持硅基的Qwen-Image吗？",
+      "url": "https://linux.do/t/topic/964541",
+      "analysis": {
+        "core_issue": "用户询问RikkaHub是否支持硅基的Qwen-Image模型",
+        "key_info": [
+          "涉及RikkaHub平台兼容性问题",
+          "针对硅基Qwen-Image模型的支持情况"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964538",
+      "title": "表情插件 | 加上辅助喽",
+      "url": "https://linux.do/t/topic/964538",
+      "analysis": {
+        "core_issue": "讨论Obsidian插件开发中的功能实现问题及bug反馈",
+        "key_info": [
+          "插件开发涉及Obsidian Callouts功能扩展",
+          "存在上传和截图状态下的滚动bug，已提供bug文件并开源在GitHub"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "964533",
+      "title": "GPT-5-Pro在Livebench的Reasoning Average拿下平均98.92的好成绩",
+      "url": "https://linux.do/t/topic/964533",
+      "analysis": {
+        "core_issue": "GPT-5-Pro在Livebench推理评测中取得平均98.92分的优异成绩",
+        "key_info": [
+          "GPT-5-Pro在Livebench的Reasoning Average得分98.92",
+          "提供了完整数据表格table_2025_05_30.csv下载资源"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "964526",
+      "title": "YuMail 1500人啦!",
+      "url": "https://linux.do/t/topic/964526",
+      "analysis": {
+        "error": "API请求超时",
+        "core_issue": "API超时",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964522",
+      "title": "线上版Codex真的顶，看着它扑哧扑哧写代码，试错，一种欣慰感油然而生。",
+      "url": "https://linux.do/t/topic/964522",
+      "analysis": {
+        "error": "API请求超时",
+        "core_issue": "API超时",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964521",
+      "title": "Windows自带压缩能不能替代WinRar和7zip？",
+      "url": "https://linux.do/t/topic/964521",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "964515",
+      "title": "国补取消，瞅着不像会恢复",
+      "url": "https://linux.do/t/topic/964515",
+      "analysis": {
+        "error": "DeepSeek API调用失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+        "core_issue": "AI分析失败",
+        "key_info": [],
+        "post_type": "错误",
+        "value_assessment": "低"
+      }
+    }
+  ]
+}

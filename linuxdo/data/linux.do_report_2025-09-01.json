@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "report_date": "2025-09-01",
+    "title": "Linux.do 每日热帖报告 (2025-09-01)",
+    "source": "Linux.do",
+    "post_count": 30
+  },
+  "summary": {
+    "overview": "今日社区讨论聚焦AI模型应用、软件工具使用技巧以及生活琐事，整体氛围活跃。",
+    "highlights": {
+      "tech_savvy": [
+        "通过NEWAPI参数覆盖简化DeepSeek-V3.1思考模式在不同渠道的开启配置。",
+        "Architext库定义上下文工程新范式，像架构师一样思考Prompt。",
+        "OpenRouter API调用香蕉(2.5flash生图)需额外设置modalities参数以支持图文混合。"
+      ],
+      "resources_deals": [
+        "每月网易云会员免费领取链接分享。",
+        "分享利用闲置claw run搭建glog博客的方法。",
+        "Mac上使用小火箭客户端，资源占用少且能与手机同步配置。"
+      ],
+      "hot_topics": [
+        "如何通俗易懂地向他人科普大模型？",
+        "探讨白嫖行为上瘾以及何时应该停止的问题。",
+        "B站看视频时如果YT有4K源能否直接跳转或替换的讨论。"
+      ]
+    },
+    "conclusion": "今天大家都在努力搞技术、薅羊毛，顺便思考人生的意义。"
+  },
+  "posts": [
+    {
+      "id": "923490",
+      "title": "几十年了，户口本和教科书的质量一直很差。",
+      "url": "https://linux.do/t/topic/923490",
+      "analysis": {
+        "core_issue": "户口本和教科书质量差的问题长期存在，希望得到改善。",
+        "key_info": [
+          "户口本易开裂",
+          "教科书不包书皮容易破损",
+          "老师要求教科书包书皮"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923487",
+      "title": "今天给一个朋友科普大模型有感：：：大伙是怎么通俗易懂给别人科普的：：：",
+      "url": "https://linux.do/t/topic/923487",
+      "analysis": {
+        "core_issue": "如何通俗易懂地向他人科普大模型？",
+        "key_info": [
+          "帖子征集通俗易懂解释大模型的方案",
+          "帖子可能包含不同用户对大模型科普方法的分享"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923475",
+      "title": "新搭建的导航站被谷歌标记为危险钓鱼网站，请问该怎么解决",
+      "url": "https://linux.do/t/topic/923475",
+      "analysis": {
+        "core_issue": "导航站被谷歌标记为危险钓鱼网站的申诉方法",
+        "key_info": [
+          "直接向谷歌申诉",
+          "域名托管在Cloudflare（CF）"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923472",
+      "title": "月亮绕着地球转，地球绕着L站转",
+      "url": "https://linux.do/t/topic/923472",
+      "analysis": {
+        "core_issue": "论坛用户讨论Gemini模型的生图能力和资源分享。",
+        "key_info": [
+          "感谢用户神墨佬的分享",
+          "讨论Gemini生图能力",
+          "帖子属于LINUX DO 星体版块"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923469",
+      "title": "Notion Android 有序列表样式出现问题！佬们有这种情况吗？",
+      "url": "https://linux.do/t/topic/923469",
+      "analysis": {
+        "core_issue": "Notion Android应用中，有序列表样式显示异常，与Windows版本存在差异。",
+        "key_info": [
+          "Notion Android应用存在问题",
+          "有序列表样式显示异常",
+          "与Notion Windows版本对比存在差异"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923468",
+      "title": "AI Studio Build新增Angular(TypeScript)框架",
+      "url": "https://linux.do/t/topic/923468",
+      "analysis": {
+        "core_issue": "AI Studio Build新增Angular(TypeScript)框架",
+        "key_info": [
+          "AI Studio Build更新",
+          "新增Angular(TypeScript)框架支持"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923467",
+      "title": "每月网易云会员~自取",
+      "url": "https://linux.do/t/topic/923467",
+      "analysis": {
+        "core_issue": "分享免费网易云音乐会员领取链接。",
+        "key_info": [
+          "网易云音乐会员免费领取",
+          "黑胶邀请官 漠**Z 赠送会员卡",
+          "复制文案到网易云音乐APP领取"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923466",
+      "title": "大家需要我测试啥本地开源模型的？",
+      "url": "https://linux.do/t/topic/923466",
+      "analysis": {
+        "core_issue": "楼主寻求社区推荐可在4060显卡和LM Studio上运行的1B-12B本地开源模型进行测试。",
+        "key_info": [
+          "模型需要在4060显卡上可运行。",
+          "模型参数量需要在1B-12B之间。",
+          "模型需要在LM Studio中可运行。",
+          "楼主希望社区成员在评论区提供模型仓库链接。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923462",
+      "title": "搞定 DeepSeek-V3.1 思考模式！分享 NEWAPI 的参数覆盖设置",
+      "url": "https://linux.do/t/topic/923462",
+      "analysis": {
+        "core_issue": "分享通过NEWAPI参数覆盖功能，针对DeepSeek-V3.1模型在不同渠道开启思考模式的配置方法。",
+        "key_info": [
+          "通过NEWAPI的参数覆盖功能可以简化DeepSeek-V3.1思考模式在不同渠道的开启。",
+          "提供了OpenRouter和阿里百炼渠道的具体配置代码，用于开启DeepSeek-V3.1的思考模式。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "923461",
+      "title": "王者荣耀现在全是人坤吗？",
+      "url": "https://linux.do/t/topic/923461",
+      "analysis": {
+        "core_issue": "王者荣耀游戏环境变化，玩家水平普遍提高，导致高段位难度降低。",
+        "key_info": [
+          "高胜率玩家数量增加，多个账号胜率超过80%。",
+          "高星段位难度降低，50星段位感觉像以前的星耀水平。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923460",
+      "title": "利用闲置的 claw run 搭建一个 glog 博客",
+      "url": "https://linux.do/t/topic/923460",
+      "analysis": {
+        "core_issue": "利用claw run部署glog博客",
+        "key_info": [
+          "使用 sanqi37/glog:latest 镜像",
+          "端口设置为 37371，并启用 HTTPS",
+          "使用 claw run 部署，挂载本地存储到 /data 目录"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923456",
+      "title": "为啥折腾白嫖这么上瘾啊",
+      "url": "https://linux.do/t/topic/923456",
+      "analysis": {
+        "core_issue": "探讨白嫖行为上瘾以及何时应该停止的问题。",
+        "key_info": [
+          "白嫖行为容易让人上瘾",
+          "寻求停止白嫖行为的建议"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923452",
+      "title": "突然发现 mac 上竟然能用小火箭",
+      "url": "https://linux.do/t/topic/923452",
+      "analysis": {
+        "core_issue": "在Mac上使用小火箭客户端及其优势",
+        "key_info": [
+          "资源占用少",
+          "能与手机同步配置文件",
+          "有桌面小组件方便开关"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923444",
+      "title": "提问，nano banana 如何生成其他尺寸的图片？",
+      "url": "https://linux.do/t/topic/923444",
+      "analysis": {
+        "core_issue": "询问如何使用nano banana生成指定比例的图片。",
+        "key_info": [
+          "nano banana生成图片时似乎强制为1:1比例。",
+          "即使在提示词中指定比例，也可能无效或用纯色填充。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923440",
+      "title": "测试Huggingface上一些优秀的开源本地模型（4060可跑）",
+      "url": "https://linux.do/t/topic/923440",
+      "analysis": {
+        "core_issue": "分享在4060显卡上测试Hugging Face开源本地模型Qwen3-Jan-V1-4B-Grand-Horror-Day1-to-Day7-Evolved-Imatrix-GGUF的经验和结果。",
+        "key_info": [
+          "模型为 DavidAU/Qwen3-Jan-V1-4B-Grand-Horror-Day1-to-Day7-Evolved-Imatrix-GGUF",
+          "测试环境为单卡4060（8G），模型占用内存2.73GB，Token速度为35.24 token/s",
+          "测试了三个问题，包括使用HTML创建天气页面和宇宙小游戏",
+          "Hugging Face仓库地址: huggingface.co DavidAU/Qwen3-Jan-V1-4B-Grand-Horror-Day1-to-Day7-Evolved-Imatrix-GGUF"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923438",
+      "title": "同一个厂家型号但是母鸡不同的tcping对比",
+      "url": "https://linux.do/t/topic/923438",
+      "analysis": {
+        "core_issue": "同一厂家型号的设备，因母鸡（可能指批次或硬件版本）不同导致tcping性能差异显著。",
+        "key_info": [
+          "设备厂家和型号相同",
+          "母鸡（批次/版本）不同",
+          "tcping性能存在明显差距"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923421",
+      "title": "[寄中寄]cursor退款退到余额里，余额有什么用",
+      "url": "https://linux.do/t/topic/923421",
+      "analysis": {
+        "core_issue": "用户因Cursor订阅服务变更导致使用受限，申请退款后退款金额退至余额，用户质疑余额用途。",
+        "key_info": [
+          "用户订阅的Cursor服务由无限访问变为限制使用Sonnet 4仅2-3天。",
+          "用户采取了禁用\"Thinking\"功能等措施以减少token使用，但问题依旧存在。",
+          "退款金额退至余额而非原支付渠道，用户对余额的用途表示疑问。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923414",
+      "title": "rust里面的所有权确实不太好上手，完全没接触过的概念",
+      "url": "https://linux.do/t/topic/923414",
+      "analysis": {
+        "core_issue": "Rust所有权概念的学习曲线陡峭，希望了解Rust在实际业务中的应用。",
+        "key_info": [
+          "Rust的所有权机制能有效避免内存泄漏。",
+          "作者有Golang, PHP, Python的使用经验，目前在学习Rust。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923412",
+      "title": "来来来，IP纯净度大比拼!",
+      "url": "https://linux.do/t/topic/923412",
+      "analysis": {
+        "core_issue": "讨论和比较不同IP地址的纯净度。",
+        "key_info": [
+          "帖子总数为16个",
+          "参与者人数为13位"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923409",
+      "title": "为什么还没人做这个：B站看视频时如果YT有4K源能直接跳转或替换？",
+      "url": "https://linux.do/t/topic/923409",
+      "analysis": {
+        "core_issue": "建议开发一个工具，实现在B站观看视频时，如果YouTube有更高画质的同款视频源，可以一键跳转或替换。",
+        "key_info": [
+          "B站弹幕和推荐优秀，但画质通常较差。",
+          "YouTube画质高，但缺少弹幕和推荐。",
+          "现有解决方案包括“给YT加B站弹幕”和“空降助手”。",
+          "建议借鉴“空降助手”的用户上传模式来降低成本。",
+          "用户需求明确，具有可行性和实用性。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "923406",
+      "title": "大家经常吃剩菜吗？",
+      "url": "https://linux.do/t/topic/923406",
+      "analysis": {
+        "core_issue": "讨论吃剩菜的频率和原因。",
+        "key_info": [
+          "经常做多余的菜",
+          "第二天加热吃以节省时间",
+          "每天只炒一次菜"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923400",
+      "title": "求助：Google云服务被封，申诉之后官方让我回邮件应该怎么说才合理",
+      "url": "https://linux.do/t/topic/923400",
+      "analysis": {
+        "core_issue": "Google云服务因违反服务条款被封禁，用户寻求申诉邮件回复建议。",
+        "key_info": [
+          "账号被封原因是疑似通过多个账号轮询Gemini API以规避配额限制。",
+          "官方邮件列出了多种可能违反服务条款的行为，要求用户说明情况并提供相关信息。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923399",
+      "title": "吹爆 Zen 浏览器的交互",
+      "url": "https://linux.do/t/topic/923399",
+      "analysis": {
+        "core_issue": "Zen浏览器交互体验优秀",
+        "key_info": [
+          "简洁模式",
+          "浮窗预览",
+          "侧边栏"
+        ],
+        "post_type": "产品评测",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "923384",
+      "title": "OpenRouter API的香蕉（2.5flash生图）需要额外设置的参数 API/newapi/veloera",
+      "url": "https://linux.do/t/topic/923384",
+      "analysis": {
+        "core_issue": "OpenRouter API调用香蕉(2.5flash生图)模型时，出现空返回或只有文字的问题，需要额外设置参数以支持图文混合模型。",
+        "key_info": [
+          "问题出现在使用OpenRouter API直连香蕉(2.5flash生图)模型时。",
+          "解决方案是需要在API请求中加入 \"modalities\": [\"image\",\"text\"] 参数。",
+          "rikkahub也更新支持了这个参数。"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "923380",
+      "title": "想知道每个佬友最喜欢的有哲理的句子/谚语",
+      "url": "https://linux.do/t/topic/923380",
+      "analysis": {
+        "core_issue": "分享个人喜欢的有哲理的句子或谚语。",
+        "key_info": [
+          "临渊羡鱼，不如退而结网",
+          "与其空想或羡慕他人成果，不如脚踏实地付诸行动实现目标。"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923373",
+      "title": "Clash Party1.8.6软件有点问题，大家先不要更新，内核出了问题",
+      "url": "https://linux.do/t/topic/923373",
+      "analysis": {
+        "core_issue": "Clash Party 1.8.6 版本存在内核问题，建议用户暂缓更新。",
+        "key_info": [
+          "节点连接正常，但监听速度等功能异常。",
+          "建议用户不要更新到 1.8.6 版本。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923368",
+      "title": "在如皋吃蟹黄包",
+      "url": "https://linux.do/t/topic/923368",
+      "analysis": {
+        "core_issue": "分享关于如皋德顺斋蟹黄包的印象和故事。",
+        "key_info": [
+          "计划去如皋德顺斋吃蟹黄包",
+          "询问大家关于蟹黄包的印象和故事",
+          "发帖者是第一次吃蟹黄包"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "923363",
+      "title": "屎上加屎，ESA函数 + ADBP Supabase",
+      "url": "https://linux.do/t/topic/923363",
+      "analysis": {
+        "core_issue": "用户尝试组合ESA边缘函数和Supabase数据库，但ESA边缘函数无法访问Supabase提供的IP端口，导致组合失败。",
+        "key_info": [
+          "ESA边缘函数无法直接访问IP地址和特定端口（如8000）",
+          "AnalyticDB PostgreSQL 版Supabase提供免费IP:8000接口，但缺乏域名绑定功能",
+          "用户希望将边缘计算能力和免费数据库组合使用",
+          "Supabase数据库函数计算功能被阉割"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "923361",
+      "title": "[开源] Architext: 定义上下文工程新范式——像架构师一样思考你的 Prompt",
+      "url": "https://linux.do/t/topic/923361",
+      "analysis": {
+        "core_issue": "Architext是一个用于构建更智能、更可靠的AI Agent的上下文工程Python库，旨在解决LLM应用中上下文构建和管理的痛点。",
+        "key_info": [
+          "Architext是一个Python库，专注于为大语言模型（LLM）应用设计上下文工程。",
+          "该库提供了一套面向对象的工具，用于精确、动态地构建和重组LLM的输入上下文。",
+          "上下文工程关注于结构化、动态化和优化提供给LLM的上下文信息，以提高其性能。",
+          "Architext旨在解决Agent上下文越来越庞大导致的管理困难问题。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "923357",
+      "title": "求助 可以将WordPress转变为静态网页吗",
+      "url": "https://linux.do/t/topic/923357",
+      "analysis": {
+        "core_issue": "寻求将WordPress网站转换为静态网页的解决方案，并愿意付费请人实现。",
+        "key_info": [
+          "需要将WordPress网站转换为静态网页",
+          "参考网站为 https://www.hkdivorce.hk/",
+          "尝试过小飞兔扒取和AI修改，但效果不佳",
+          "愿意付费寻求帮助"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    }
+  ]
+}

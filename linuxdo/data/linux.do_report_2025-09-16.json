@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "report_date": "2025-09-16",
+    "title": "Linux.do 每日热帖报告 (2025-09-16)",
+    "source": "Linux.do",
+    "post_count": 30,
+    "generation_time": "2025-09-16T22:12:25.700819",
+    "status": "success"
+  },
+  "summary": {
+    "overview": "今日社区氛围活跃，技术求助与资源分享并重，焦点集中在AI工具、网络安全和节日活动上。",
+    "highlights": {
+      "tech_savvy": [
+        "基于AutoGen框架的炒股智能体实现多源数据分析和风险评估",
+        "Grok2API重写版新增Grok4支持并改进令牌统计",
+        "安卓全局消息加解密软件基于无障碍服务模拟点击操作"
+      ],
+      "resources_deals": [
+        "Emu666在线模拟器网站提供大量童年游戏资源",
+        "xychatai以6元/位销售ChatGPT Team自助邀请并举办抽奖",
+        "建行河北数币转账活动可领微信立减金"
+      ],
+      "hot_topics": [
+        "GitHub认证卡顿及代理IP问题引发技术讨论",
+        "国庆出游推荐和月饼价格下降趋势引发广泛交流",
+        "Notion上传NSFW图片的封号风险引发合规性讨论"
+      ]
+    },
+    "conclusion": "今日社区既在代码中寻找自由，也在月饼里品味经济，技术与生活在此完美交融。"
+  },
+  "posts": [
+    {
+      "id": "962191",
+      "title": "发现好的网站",
+      "url": "https://linux.do/t/topic/962191",
+      "analysis": {
+        "core_issue": "用户分享了一个名为Emu666的在线模拟器游戏网站，可以玩许多童年游戏。",
+        "key_info": [
+          "Emu666是一个在线模拟器游戏网站",
+          "该网站提供许多童年游戏的游玩"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962188",
+      "title": "求助open-webui部署后用户没有模型选择",
+      "url": "https://linux.do/t/topic/962188",
+      "analysis": {
+        "core_issue": "用户按照教程部署Open WebUI后，管理员账户有模型选择权限而普通用户账户没有。",
+        "key_info": [
+          "部署教程为从零开始入坑域名、云服务器并部署New API + Open WebUI",
+          "部署成功但存在权限问题",
+          "管理员和普通用户的模型选择权限不一致"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962182",
+      "title": "关于CC, 佬友们都在使用什么工具？",
+      "url": "https://linux.do/t/topic/962182",
+      "analysis": {
+        "core_issue": "用户询问关于CC（可能指代码编译或相关技术）的工具推荐，包括图形化和CLI工具。",
+        "key_info": [
+          "图形化工具讨论",
+          "CLI工具讨论",
+          "工具推荐交流"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962180",
+      "title": "surge 究竟怎么设置 socks代理啊",
+      "url": "https://linux.do/t/topic/962180",
+      "analysis": {
+        "core_issue": "用户求助如何在Surge软件中设置SOCKS代理",
+        "key_info": [
+          "论坛分发站上的SOCKS代理设置",
+          "需要手把手教程"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962172",
+      "title": "分析今年月饼价格必定下降",
+      "url": "https://linux.do/t/topic/962172",
+      "analysis": {
+        "core_issue": "分析今年月饼价格下降的原因和趋势",
+        "key_info": [
+          "餐饮行业竞争激烈导致价格下降",
+          "五星级酒店在自家门口摆摊销售",
+          "高端食材如榴莲等价格下降明显"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962171",
+      "title": "特别好奇一个安卓手机的操作",
+      "url": "https://linux.do/t/topic/962171",
+      "analysis": {
+        "core_issue": "用户对安卓手机操作的好奇心得到满足",
+        "key_info": [
+          "用户不再好奇",
+          "共有11个帖子",
+          "9位参与者参与讨论"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "962170",
+      "title": "GITHUB认证卡住了",
+      "url": "https://linux.do/t/topic/962170",
+      "analysis": {
+        "core_issue": "GitHub认证过程中在最后一步点击sharing location后卡住，无法继续完成认证",
+        "key_info": [
+          "认证过程中向https://collector.github.com/github/collect发送轮询post请求但收不到响应",
+          "使用代理会导致IP地址非国内，不使用代理则卡在认证界面"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962167",
+      "title": "大佬们，国庆快到了，有没有可以推荐好玩的地方。",
+      "url": "https://linux.do/t/topic/962167",
+      "analysis": {
+        "core_issue": "用户寻求国庆期间适合陪伴父母出游的地点推荐",
+        "key_info": [
+          "国庆假期",
+          "陪伴父母出游",
+          "寻求好玩地点推荐"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962164",
+      "title": "为什么指纹浏览器+干净的家宽IP，注册google,GMAIL，谷歌账号，还是需要手机验证啊",
+      "url": "https://linux.do/t/topic/962164",
+      "analysis": {
+        "core_issue": "用户使用指纹浏览器和干净的家宽IP注册Google账号时仍被要求手机验证，怀疑指纹浏览器被识别",
+        "key_info": [
+          "IP是绝对没有问题的，测试了很多家宽",
+          "怀疑是指纹浏览器被Google识别"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962162",
+      "title": "[55] 明盘出一台阿里云香港2C0.5G 200M 轻量服务器一年",
+      "url": "https://linux.do/t/topic/962162",
+      "analysis": {
+        "core_issue": "用户以55元的价格转让一台阿里云香港轻量服务器",
+        "key_info": [
+          "配置为2核0.5G内存200M带宽",
+          "卖家手机号注册可协助换绑但有人脸识别锁机风险",
+          "建议通过闲鱼交易"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962160",
+      "title": "notion可以上传nsfw图片吗",
+      "url": "https://linux.do/t/topic/962160",
+      "analysis": {
+        "core_issue": "询问Notion是否允许上传NSFW图片及相关的封号风险",
+        "key_info": [
+          "用户想整理不同画风的AI图，包括NSFW内容",
+          "担心上传NSFW图片到Notion会导致封号",
+          "询问不分享文档链接是否能够避免风险"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962154",
+      "title": "swift student challenge",
+      "url": "https://linux.do/t/topic/962154",
+      "analysis": {
+        "core_issue": "寻求Swift Student Challenge的参赛想法和指导",
+        "key_info": [
+          "Swift Student Challenge面向初中生、高中生和大学生，要求开发教育或健康主题的3分钟内完成的APP",
+          "优胜者前50名可获得苹果设备、WWDC包机票和食宿"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962153",
+      "title": "3080 改的20g长期24小时满载,这温度稳吗?",
+      "url": "https://linux.do/t/topic/962153",
+      "analysis": {
+        "core_issue": "用户询问魔改3080显卡在长期满载运行时的温度稳定性问题",
+        "key_info": [
+          "GPU核心温度稳定在83度",
+          "显存温度稳定在92度左右",
+          "24小时持续满载运行QLoRa训练"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962128",
+      "title": "vscode的codex任务完成监控",
+      "url": "https://linux.do/t/topic/962128",
+      "analysis": {
+        "core_issue": "用户询问VSCode中Codex任务完成监控的方法，以解决其运行速度慢、需要长时间等待的问题。",
+        "key_info": [
+          "寻求自动监控Codex任务完成的方法",
+          "提到Codex运行速度慢，需要长时间等待"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962127",
+      "title": "北部战区海军组织舰艇开放活动",
+      "url": "https://linux.do/t/topic/962127",
+      "analysis": {
+        "core_issue": "北部战区海军在青岛组织舰艇开放活动，供公众参观西宁舰和芜湖舰。",
+        "key_info": [
+          "活动时间：9月24日（周三）至28日（周日）",
+          "活动地点：山东省青岛市奥帆中心码头",
+          "可参观舰艇：西宁舰和芜湖舰"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962114",
+      "title": "求赠一张华住会金卡",
+      "url": "https://linux.do/t/topic/962114",
+      "analysis": {
+        "core_issue": "用户因出行住宿费用高，寻求他人赠送华住会金卡会员资格",
+        "key_info": [
+          "用户因十一假期家庭出游，无会员导致住宿费用较高",
+          "用户公开请求他人赠送多余的华住会金卡会员"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "962107",
+      "title": "我做了一个安卓全局消息加解密软件，会有风险吗？",
+      "url": "https://linux.do/t/topic/962107",
+      "analysis": {
+        "core_issue": "作者开发了一款基于无障碍服务的安卓全局消息加解密软件，咨询其可能存在的法律和风险问题。",
+        "key_info": [
+          "软件基于无障碍服务，模拟点击操作，不修改目标APP代码",
+          "支持用户自导入和扫描适配其他应用，如QQ、微信"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962097",
+      "title": "重写了一下 grok2api",
+      "url": "https://linux.do/t/topic/962097",
+      "analysis": {
+        "core_issue": "用户因原版grok2api工具因xaiArtifact等问题基本无法使用，而重写并分享了一个修复版",
+        "key_info": [
+          "自动获取x-statsig-id",
+          "自动移除响应中的特定标签",
+          "改进令牌使用统计和监控",
+          "新增Grok4支持"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962088",
+      "title": "重大安全更新：用Google(Gemini+Golang)开发的内网匿名聊天室",
+      "url": "https://linux.do/t/topic/962088",
+      "analysis": {
+        "core_issue": "介绍内网匿名聊天室项目的重大安全更新和新特性",
+        "key_info": [
+          "实现了RSA+AES加密的全覆盖，服务端无法解密文件名和文件内容",
+          "实时显示在线/离线状态，并使用本地sessionStorage管理会话"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962087",
+      "title": "cursor trial 14d😏",
+      "url": "https://linux.do/t/topic/962087",
+      "analysis": {
+        "core_issue": "用户分享关于cursor试用期14天的信息，可能涉及GPTMail服务。",
+        "key_info": [
+          "cursor trial 14d",
+          "mail.chatgpt.org.uk",
+          "q278bkio@sbmen.org",
+          "GPTMail",
+          "5个帖子5位参与者"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "962084",
+      "title": "这个Nano Banana网站，大家觉得怎么样？漂亮不？升级了不少功能",
+      "url": "https://linux.do/t/topic/962084",
+      "analysis": {
+        "core_issue": "讨论Nano Banana网站的功能升级和使用体验",
+        "key_info": [
+          "Nano Banana网站进行了新升级，支持一键生成手办、写真图、建筑模型等",
+          "无需输入指令词，适合小白用户，网站入口为https://nanobananafree.ai/"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962077",
+      "title": "xychatai：自助邀请team 6元一位/三合一镜像站 | 【抽16个 team 自助邀请兑换码】",
+      "url": "https://linux.do/t/topic/962077",
+      "analysis": {
+        "core_issue": "站长xychatai推广其提供的ChatGPT Team自助邀请服务，并以6元一位的价格销售，同时举办留言抽奖活动赠送16个兑换码。",
+        "key_info": [
+          "抽奖活动：留言即可参与，奖品为16个Team自助邀请兑换码，开奖时间为2025年9月19日12点",
+          "产品服务：提供ChatGPT Team自助邀请，价格6元/位，每日供货约100个，购买后需三日内使用否则自动吊销"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962074",
+      "title": "这天气在海边蹬自行车是真爽啊",
+      "url": "https://linux.do/t/topic/962074",
+      "analysis": {
+        "core_issue": "用户分享在海边骑自行车的愉快体验",
+        "key_info": [
+          "天气适宜在海边骑自行车",
+          "附上了一首骑行时单曲循环的歌曲"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "962072",
+      "title": "甲骨文添加付款方式",
+      "url": "https://linux.do/t/topic/962072",
+      "analysis": {
+        "core_issue": "用户无法成功为甲骨文账户添加付款方式，多张银行卡均被拒绝",
+        "key_info": [
+          "尝试添加付款方式但被拒绝",
+          "使用了多张银行卡均未成功"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962052",
+      "title": "搞出来的autogen炒股智能体，大部分代码都是AI写的",
+      "url": "https://linux.do/t/topic/962052",
+      "analysis": {
+        "core_issue": "分享一个基于微软AutoGen框架开发的炒股智能体项目，并提供了开源地址和核心功能介绍",
+        "key_info": [
+          "项目基于微软AutoGen框架，采用多Agent架构",
+          "核心功能包括多源数据收集、智能财务分析、风险评估、量化分析、实时监控和数据可视化"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962051",
+      "title": "小鹏汇天飞行器出现意外，两架飞行器飞行间距不足发生接触，无人员伤亡",
+      "url": "https://linux.do/t/topic/962051",
+      "analysis": {
+        "core_issue": "小鹏汇天飞行器在长春航展预演中因飞行间距不足发生接触事故，导致一架飞行器受损起火，但无人员伤亡。",
+        "key_info": [
+          "事故发生在9月16日长春航展预演结束后，涉及两架小鹏汇天eVTOL飞行器",
+          "一架飞行器正常降落，另一架着陆时受损起火，现场人员安全，原因正在调查"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962047",
+      "title": "求助：自己拆机清灰换硅脂，出现了一个问题",
+      "url": "https://linux.do/t/topic/962047",
+      "analysis": {
+        "core_issue": "用户拆机清灰换硅脂时遇到散热模块无法分离的问题，怀疑是硅脂粘合导致",
+        "key_info": [
+          "散热模块部分无法掰开，其他部位已松动",
+          "怀疑旧硅脂粘合导致无法分离，寻求解决方法"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "962046",
+      "title": "嵌入式软开发展方向与学习路线",
+      "url": "https://linux.do/t/topic/962046",
+      "analysis": {
+        "core_issue": "一名研二学生询问嵌入式软件开发的发展方向和学习路线",
+        "key_info": [
+          "嵌入式软件开发行业发展趋势",
+          "嵌入式软件开发学习路径指导"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962025",
+      "title": "建行数币转账领微信立减金（限河北）",
+      "url": "https://linux.do/t/topic/962025",
+      "analysis": {
+        "core_issue": "建设银行针对河北用户推出数字人民币转账领微信立减金优惠活动",
+        "key_info": [
+          "活动入口在建行生活App首页的数币交易达标礼",
+          "需跳转至建设银行App完成任意金额转账后方可领取"
+        ],
+        "post_type": "优惠活动",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "962021",
+      "title": "此话题终结 此话题终结 此话题终结",
+      "url": "https://linux.do/t/topic/962021",
+      "analysis": {
+        "core_issue": "用户通过外部讨论确认了关于某话题（可能指降智）的结论，并宣布终结该话题。",
+        "key_info": [
+          "查看了X和Reddit上许多外国用户关于降智的讨论",
+          "基于外部讨论确认了结论，决定终结此话题"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    }
+  ]
+}

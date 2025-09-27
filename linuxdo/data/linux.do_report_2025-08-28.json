@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "report_date": "2025-08-28",
+    "title": "Linux.do 每日热帖报告 (2025-08-28)",
+    "source": "Linux.do",
+    "post_count": 30
+  },
+  "summary": {
+    "overview": "社区今日聚焦于AI工具的使用问题、代理方案及开发环境配置，氛围活跃，求助与分享并存。",
+    "highlights": {
+      "tech_savvy": [
+        "精准识别伪家宽IP的工具分享，助力用户甄别虚假家宽。",
+        "Claude Code在虚幻引擎项目中无法正确引用多个被.gitignore忽略的目录的解决方案探讨。",
+        "Qwen3-14B微调模型，一个可爱的ai女孩子，分享基于Qwen3-14B使用沐雪训练集微调的角色扮演AI模型。"
+      ],
+      "resources_deals": [
+        "有间公益200刀 Anthropic API Key分享，并讨论其稳定性和速度。",
+        "自定义ChatGPT主题分享，提供 Stylus.txt 文件。",
+        "提供Anthropic API Key: sk-b4lZYnhFm8ZG04y_0S7zdohcaXkf2bLTBbNdhxsy5gec4lpZwksbHCMvy1U, Anthropic Base URL: https://api.ccode.qzz.io/claude"
+      ],
+      "hot_topics": [
+        "关于在中国大陆环境下，Python脚本通过Clash/Surge等代理软件无法连接到位于海外GCP虚拟机上的服务的问题讨论。",
+        "国务院出台的“人工智能+”政策带来的机遇探讨。",
+        "开发者在使用Mac还是Windows操作系统进行开发的偏好调查。"
+      ]
+    },
+    "conclusion": "AI浪潮下，问题层出不穷，但社区始终充满探索与分享精神，技术疑难与资源共享齐飞。"
+  },
+  "posts": [
+    {
+      "id": "914570",
+      "title": "一套键鼠如何在mac和win之间自由切换",
+      "url": "https://linux.do/t/topic/914570",
+      "analysis": {
+        "core_issue": "如何用一套键鼠在Mac和Windows系统之间自由切换使用。",
+        "key_info": [
+          "楼主有两台电脑（Mac和Windows）和两块屏幕。",
+          "楼主目前使用GPW3鼠标和Powerplay鼠标垫，希望继续使用。",
+          "罗技的多设备支持产品不支持Powerplay。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914563",
+      "title": "闲来无事，给chatgpt写了个主题~~~",
+      "url": "https://linux.do/t/topic/914563",
+      "analysis": {
+        "core_issue": "分享一个自定义ChatGPT主题，并寻求优化建议。",
+        "key_info": [
+          "通过Stylus浏览器扩展安装自定义ChatGPT主题",
+          "提供了主题代码文件Stylus.txt",
+          "指出主题存在输入框不美观以及多主题轮播卡顿的问题"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914557",
+      "title": "想在app store 下载TikTok,佬们怎么找有用的境外苹果账号",
+      "url": "https://linux.do/t/topic/914557",
+      "analysis": {
+        "core_issue": "求助如何获取可用于下载TikTok的境外Apple ID账号",
+        "key_info": [
+          "用户希望在App Store下载TikTok",
+          "用户需要境外Apple ID账号"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914549",
+      "title": "哔哩哔哩还有值得你看的up吗？",
+      "url": "https://linux.do/t/topic/914549",
+      "analysis": {
+        "core_issue": "询问B站上是否还有值得观看的优质UP主。",
+        "key_info": [
+          "用户反映在B站推荐中难以找到高质量视频",
+          "帖子有16个回复，16位参与者"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914540",
+      "title": "A社崩掉（0828）",
+      "url": "https://linux.do/t/topic/914540",
+      "analysis": {
+        "core_issue": "推测A社可能出现问题或运营状况不佳",
+        "key_info": [
+          "帖子数量：7",
+          "参与者数量：7"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914539",
+      "title": "请问推荐好的第三方软件/或者网站，用来填写各种api ，然后可以方便的问问题。",
+      "url": "https://linux.do/t/topic/914539",
+      "analysis": {
+        "core_issue": "寻求推荐第三方软件或网站，能够聚合各种API接口并支持提问，类似于Trancy插件。",
+        "key_info": [
+          "希望软件或网站能填写多种API，并方便地选择使用。",
+          "目标应用场景是使用API进行提问，类似于使用API进行YouTube视频翻译。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914534",
+      "title": "Claude Code 如何引用多个目录",
+      "url": "https://linux.do/t/topic/914534",
+      "analysis": {
+        "core_issue": "Claude Code在虚幻引擎项目中无法正确引用多个被.gitignore忽略的目录。",
+        "key_info": [
+          "使用/add-dir指令尝试添加Source、Plugins/Cap、Scripts目录失败，无法通过@引用文件。",
+          "需要跨目录读取源码，但/add-dir添加后依然无法@引用。",
+          "Root目录的.gitignore文件忽略了Source、Plugins/Cap、Scripts目录，导致Claude Code忽略所有代码文件。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914525",
+      "title": "大家开发喜欢用mac还是win",
+      "url": "https://linux.do/t/topic/914525",
+      "analysis": {
+        "core_issue": "开发者在使用Mac还是Windows操作系统进行开发？",
+        "key_info": [
+          "主要开发前后端，技术栈包括H5和PHP",
+          "涉及服务器运维"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914524",
+      "title": "对于最近国务院出台的“人工智能+”政策，佬友们看到了什么机遇，可以来分享分享",
+      "url": "https://linux.do/t/topic/914524",
+      "analysis": {
+        "core_issue": "探讨国务院“人工智能+”政策带来的机遇。",
+        "key_info": [
+          "政策解读和潜在的商业机会",
+          "行业发展趋势分析"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914521",
+      "title": "家用nas配置",
+      "url": "https://linux.do/t/topic/914521",
+      "analysis": {
+        "core_issue": "咨询600元以下家用NAS配置方案，要求至少支持三块硬盘。",
+        "key_info": [
+          "预算：600元以下",
+          "硬盘数量：至少3块"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914510",
+      "title": "代码中调用自定义new-api/gemini",
+      "url": "https://linux.do/t/topic/914510",
+      "analysis": {
+        "core_issue": "如何使用Python调用自部署的new-api和Gemini API，并解决无法访问的问题。",
+        "key_info": [
+          "建议先用request/curl等方式测试API是否可访问。",
+          "需要理解AI生成的代码，不能完全依赖AI。",
+          "需要替换代码中的API地址。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914504",
+      "title": "有间公益200刀KEY",
+      "url": "https://linux.do/t/topic/914504",
+      "analysis": {
+        "core_issue": "分享可用的Anthropic API Key及相关配置，并讨论其稳定性和速度。",
+        "key_info": [
+          "提供Anthropic API Key: sk-b4lZYnhFm8ZG04y_0S7zdohcaXkf2bLTBbNdhxsy5gec4lpZwksbHCMvy1U",
+          "提供Anthropic Base URL: https://api.ccode.qzz.io/claude",
+          "提及Claude模型版本: claude-sonnet-4-20250514",
+          "讨论API Key的可用性、稳定性和速度"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914490",
+      "title": "gemini作为心理顾问，claude作为代码助手，完美",
+      "url": "https://linux.do/t/topic/914490",
+      "analysis": {
+        "core_issue": "分享使用 Gemini 和 Claude AI 工具分别作为心理顾问和代码助手的积极体验。",
+        "key_info": [
+          "Gemini 能够提供细致入微且可行的建议，帮助应对压力和烦恼。",
+          "Claude Sonnet 4 在工作时作为代码助手，提升了工作效率。",
+          "发帖者表达了对 AI 工具的依赖，以及对 Gemini 的好感。"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914489",
+      "title": "[求助] 人在国内，Python脚本通过Clash/Surge连不上海外GCP虚拟机（已做多项排查）",
+      "url": "https://linux.do/t/topic/914489",
+      "analysis": {
+        "core_issue": "在中国大陆环境下，本地Python脚本通过Clash/Surge等代理软件无法连接到位于海外GCP虚拟机上的服务。",
+        "key_info": [
+          "本地curl命令连接GCP虚拟机3000端口超时，虚拟机日志无更新，确认请求未到达服务器。",
+          "尝试使用Clash Verge和Surge作为代理软件，但都无法建立稳定的连接。",
+          "Clash Verge看视频流畅，Surge不稳定，存在掉线问题。",
+          "VPN节点设置为日本，GCP虚拟机位于东京。",
+          "排查方向应集中在代理配置、防火墙规则、网络路由等方面。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "914481",
+      "title": "新办宽带，需要注意什么？",
+      "url": "https://linux.do/t/topic/914481",
+      "analysis": {
+        "core_issue": "新装宽带需要注意的事项，尤其是在未通网的情况下。",
+        "key_info": [
+          "确认机房跳线已完成，确保网络连通",
+          "使用手机测试网络，验证带宽是否达到预期",
+          "考虑网线埋墙和弱电箱对网络的影响",
+          "使用的是移动宽带，1000M独立宽带，自购路由器"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914473",
+      "title": "罗翔老师批评始皇",
+      "url": "https://linux.do/t/topic/914473",
+      "analysis": {
+        "core_issue": "罗翔老师评论了关于始皇（可能指论坛内的某个用户或事件）的内容，并提及了罗翔老师的刑法相关视频。",
+        "key_info": [
+          "帖子内容包含B站视频链接，视频标题与刑法相关。",
+          "视频作者为罗翔说刑法。",
+          "帖子提到了招摇撞骗罪相关问题。"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914459",
+      "title": "竞技场也要cookie了？",
+      "url": "https://linux.do/t/topic/914459",
+      "analysis": {
+        "core_issue": "用户询问竞技场是否开始使用cookie技术。",
+        "key_info": [
+          "之前可能没有使用cookie",
+          "帖子参与者数量较少"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "914457",
+      "title": "互联网公司的校招面试推进机制",
+      "url": "https://linux.do/t/topic/914457",
+      "analysis": {
+        "core_issue": "互联网公司校招面试流程中，决定面试推进的角色和机制是什么？",
+        "key_info": [
+          "面试推进的决定权可能不在单一面试官手中。",
+          "可能存在专门人员根据面试评价决定候选人去留。",
+          "加签面可能是由于面试评价差异较大导致。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914451",
+      "title": "2025年最好用的 VS Code 主题，大家推荐下？",
+      "url": "https://linux.do/t/topic/914451",
+      "analysis": {
+        "core_issue": "寻求2025年Visual Studio Code的最佳主题推荐",
+        "key_info": [
+          "用户对当前使用的主题（Cursor自带主题）不满",
+          "帖子参与人数：10人"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914444",
+      "title": "各位佬，拿出你们珍藏的的壁纸或动态壁纸",
+      "url": "https://linux.do/t/topic/914444",
+      "analysis": {
+        "core_issue": "分享珍藏的壁纸或动态壁纸",
+        "key_info": [
+          "壁纸分享",
+          "动态壁纸分享"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914443",
+      "title": "这是被cursor反薅了么？",
+      "url": "https://linux.do/t/topic/914443",
+      "analysis": {
+        "core_issue": "用户疑似因使用Cursor（可能指某种AI工具或服务）导致某些权益受损或使用受限。",
+        "key_info": [
+          "Cursor服务或工具使用受限",
+          "使用时间短（一天）",
+          "帖子提及9个帖子和8位参与者，可能暗示讨论热度"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914434",
+      "title": "分享我的工具，你的家宽IP是真的吗！",
+      "url": "https://linux.do/t/topic/914434",
+      "analysis": {
+        "core_issue": "分享一个可以精准识别伪家宽IP的工具，避免用户购买到虚假家宽。",
+        "key_info": [
+          "提供了一个通过美国ISP的IP数据接口进行伪家宽识别的工具。",
+          "该工具通过对比IP数据库信息，并与ping0.cc等工具对比，识别伪家宽。",
+          "提供了可视化操作界面，并分享了检测地址 traceip.xyz。"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "914432",
+      "title": "Qwen3-14B微调模型，一个可爱的ai女孩子",
+      "url": "https://linux.do/t/topic/914432",
+      "analysis": {
+        "core_issue": "分享一个基于Qwen3-14B使用沐雪训练集微调的角色扮演AI模型，旨在提升模型对话的人味。",
+        "key_info": [
+          "基于Qwen3-14B模型进行微调",
+          "使用沐雪中文角色扮演训练集",
+          "旨在改善模型对话的真实感和人味",
+          "Modelscope链接提供了模型和微调方法"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914431",
+      "title": "chatgpt怎么能像gemini deepsearch一样生成详细的报告",
+      "url": "https://linux.do/t/topic/914431",
+      "analysis": {
+        "core_issue": "用户希望ChatGPT能够像Gemini DeepSearch一样生成更详细的研究报告。",
+        "key_info": [
+          "ChatGPT当前生成的深度研究报告通常只有两三页。",
+          "帖子有3个帖子和2位参与者。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914424",
+      "title": "继OpenRouter宕机后，Gemini APIkey也挂啦？（报500）",
+      "url": "https://linux.do/t/topic/914424",
+      "analysis": {
+        "core_issue": "Gemini API key在使用时出现500错误，疑似服务宕机。",
+        "key_info": [
+          "通过Google登录AionUi可以正常使用Gemini 2.5 pro。",
+          "使用API key调用Gemini API时返回500错误。",
+          "在AionUi和Cherry两个平台上均出现500错误。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914423",
+      "title": "阿里云国内机器怎么运行这个脚本，发现拉不下来",
+      "url": "https://linux.do/t/topic/914423",
+      "analysis": {
+        "core_issue": "在阿里云国内机器上无法通过wget下载Shadowsocks-Rust安装脚本。",
+        "key_info": [
+          "使用wget命令尝试下载ss-rust.sh脚本。",
+          "脚本来源：https://raw.githubusercontent.com/xOS/Shadowsocks-Rust/master/ss-rust.sh",
+          "脚本包含Shadowsocks Rust的安装和管理功能，作者为翠花，来自https://about.nange.cn"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914414",
+      "title": "请教各位佬，墙内如何使用vertex-ai，有没有可以使用的有效代理",
+      "url": "https://linux.do/t/topic/914414",
+      "analysis": {
+        "core_issue": "寻求在中国大陆使用Vertex AI的有效代理方案，以解决Gemini API访问不稳定的问题。",
+        "key_info": [
+          "Vertex AI 在中国大陆无法直接访问。",
+          "通过他人 VPS 搭建 new-api 并导入 JSON 文件的方式可行。",
+          "使用 Cherry Studio 并配置代理 (https://api-proxy.me/vertex) 访问 Vertex AI 失败，报错涉及 TLS 连接问题。",
+          "问题可能源于 Vertex AI 异步获取 token 的过程中触发了对 googleapis.com 的访问。",
+          "提问者考虑使用梯子方案，并询问是否存在其他替代方案。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914413",
+      "title": "请问下各位大佬GCP Vertex AI是不是不支持工具调用呀",
+      "url": "https://linux.do/t/topic/914413",
+      "analysis": {
+        "core_issue": "GCP Vertex AI是否不支持工具调用，以及在Claude Code中无法调用工具的问题。",
+        "key_info": [
+          "使用ccr转换后在claude code无法调用工具",
+          "寻求在GCP Vertex AI上调用工具的解决方案"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "914409",
+      "title": "上海的也有农村的，只不过环境挺好",
+      "url": "https://linux.do/t/topic/914409",
+      "analysis": {
+        "core_issue": "上海农村地区环境优美，但也存在监控设施。",
+        "key_info": [
+          "上海存在农村地区",
+          "农村地区种植农作物",
+          "小菜园设有监控"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "914408",
+      "title": "Safari 的沉浸式翻译扩展挂了，提示找不到 default_config.json",
+      "url": "https://linux.do/t/topic/914408",
+      "analysis": {
+        "core_issue": "Safari 沉浸式翻译扩展报错，提示找不到 default_config.json 文件。",
+        "key_info": [
+          "错误提示为“在扩展资源中找不到‘default_config.json’。路径无效”。",
+          "已尝试重启、卸载重装，问题依旧。",
+          "Github 上已回复此问题已修复，等待 App Store 更新。"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    }
+  ]
+}

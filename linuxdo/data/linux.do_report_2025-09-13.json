@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "report_date": "2025-09-13",
+    "title": "Linux.do 每日热帖报告 (2025-09-13)",
+    "source": "Linux.do",
+    "post_count": 30
+  },
+  "summary": {
+    "overview": "今日社区讨论焦点集中在技术问题求助与解决方案分享，同时AI发展动态和资源福利也引发广泛关注，整体氛围积极且技术导向明显。",
+    "highlights": {
+      "tech_savvy": [
+        "GnuPG 2.5.12发布支持抗量子加密并可用于生产环境",
+        "KiloCode平台复刻Cursor文档爬取功能支持API Key轮询",
+        "家用服务器升级配置建议：低功耗至强/EPYC平台，32-64G内存，IPMI功能"
+      ],
+      "resources_deals": [
+        "comet邀请码免费分享（Perplexity.ai浏览器兑换）",
+        "《道德寶章》版《道德经》网盘资源预告分享",
+        "AI音乐专辑《酒冷之前》上线QQ音乐网易云"
+      ],
+      "hot_topics": [
+        "xAI裁员500人战略转向专业型AI Tutor引发行业讨论",
+        "大学综测打分机制公平性争议：是否存在不透明和偏向问题",
+        "预制菜争议焦点：未明确标注且高价出售引发消费者不满"
+      ]
+    },
+    "conclusion": "今日社区既在量子加密和AI裁员中仰望星空，又在BIOS密码和VNC卡顿中脚踏实地，完美诠释了技术人的冰与火之歌。"
+  },
+  "posts": [
+    {
+      "id": "955153",
+      "title": "Windows端的CodeX及其喜欢用powershell来getContent，然后语法总是不对",
+      "url": "https://linux.do/t/topic/955153",
+      "analysis": {
+        "core_issue": "用户抱怨同事在Windows端使用PowerShell的Get-Content命令时频繁出现语法错误，且不听劝阻坚持使用。",
+        "key_info": [
+          "用户同事在Windows端使用CodeX时偏好使用PowerShell的Get-Content命令",
+          "该命令频繁出现语法错误，可能连续错误五六条",
+          "用户已建议使用其他工具但未被采纳",
+          "用户寻求解决此问题的方法"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955148",
+      "title": "[慢讯]Gnupg2.5.12出来了！可以用于生产环境，所以方便的抗量子加密有了！",
+      "url": "https://linux.do/t/topic/955148",
+      "analysis": {
+        "core_issue": "GnuPG 2.5.12版本正式发布，该系列已可用于生产环境并提供抗量子加密支持。",
+        "key_info": [
+          "GnuPG发布2.5.12版本，添加了新功能并修复了两个回归问题",
+          "官方确认2.5系列已完全支持并可用于生产环境，意味着其稳定可靠"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955142",
+      "title": "关于cf域名托管的疑惑",
+      "url": "https://linux.do/t/topic/955142",
+      "analysis": {
+        "core_issue": "域名托管到Cloudflare开启CDN后解析到VPS无法访问网站的原因分析",
+        "key_info": [
+          "域名从DNSPod迁移到Cloudflare",
+          "开启CDN小黄云后解析到VPS IP",
+          "网站无法访问需排查原因"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955134",
+      "title": "其实大家反对的不是预制菜 而是不标注而且卖高价",
+      "url": "https://linux.do/t/topic/955134",
+      "analysis": {
+        "core_issue": "消费者反对的是未明确标注且价格过高的预制菜。",
+        "key_info": [
+          "反对未明确标注的预制菜",
+          "反对预制菜以高价出售"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955127",
+      "title": "在 KiloCode 中简单复刻了 Cursor 的文档爬取",
+      "url": "https://linux.do/t/topic/955127",
+      "analysis": {
+        "core_issue": "用户分享了在KiloCode平台复刻Cursor文档爬取功能的工作流实现方法。",
+        "key_info": [
+          "通过一个Workflow执行调用Tavily Crawl的脚本来实现文档爬取",
+          "脚本支持Key轮询功能，可设置多个API Key"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955124",
+      "title": "求类似bilinote的软件安卓版的",
+      "url": "https://linux.do/t/topic/955124",
+      "analysis": {
+        "core_issue": "用户寻求一款能在安卓平台上替代bilinote、能总结视频内容并生成Markdown笔记的软件。",
+        "key_info": [
+          "需要安卓版应用",
+          "核心功能是总结各大平台视频内容",
+          "需能生成Markdown格式的笔记"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955116",
+      "title": "买了纪元1800和飙酷车神。1800问题解惑",
+      "url": "https://linux.do/t/topic/955116",
+      "analysis": {
+        "core_issue": "用户购买纪元1800完全版后游戏界面未显示拥有全部DLC，通过育碧客服指导在游戏管理属性中确认DLC已全部下载安装。",
+        "key_info": [
+          "用户持有标准版后购入完全版，但游戏界面未显示拥有全部DLC",
+          "育碧客服回复需在游戏管理-属性-安装内容中查看DLC状态，确认后所有DLC（包括4年季票）已正常下载"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955114",
+      "title": "关于VNC连接的一些问题",
+      "url": "https://linux.do/t/topic/955114",
+      "analysis": {
+        "core_issue": "用户在使用VNC连接Ubuntu时遇到界面卡顿和中文乱码问题",
+        "key_info": [
+          "VNC连接Ubuntu 24.04 xorg桌面出现界面帧率低和操作卡顿",
+          "跨平台VNC连接（Windows Realvnc Viewer到Ubuntu x11vnc）出现中文复制粘贴乱码"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955103",
+      "title": "发现了 Github Mobile 的一个 bug",
+      "url": "https://linux.do/t/topic/955103",
+      "analysis": {
+        "core_issue": "GitHub Mobile在用户更改用户名并创建同名组织后，个人资料页错误显示组织信息且首页加星页面报错",
+        "key_info": [
+          "用户名从jibukeshi改为purainity",
+          "创建了名为jibukeshi的组织导致个人资料页显示组织信息"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955100",
+      "title": "马斯克 xAI 被曝裁员至少 500 人，Grok 数据标注团队三分之一被解雇",
+      "url": "https://linux.do/t/topic/955100",
+      "analysis": {
+        "core_issue": "马斯克旗下AI公司xAI裁员至少500名数据标注员工，战略重心从通用型AI Tutor转向专业型AI Tutor。",
+        "key_info": [
+          "xAI通过邮件通知裁员，被裁员工可获合同期满或至11月30日的薪酬，但当天即失去系统访问权限。",
+          "数据标注团队是xAI最大部门，裁员后其Slack主群成员数从1500多人降至约1000人并持续减少，同时公司宣布计划将专业型AI Tutor团队规模扩大10倍。"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955086",
+      "title": "家里云配置建议",
+      "url": "https://linux.do/t/topic/955086",
+      "analysis": {
+        "core_issue": "用户寻求家用服务器升级配置建议，以替换老旧的戴尔R420，满足低功耗、高性能和预算要求。",
+        "key_info": [
+          "预算2-3千元，倾向至强或EPYC平台，需32-64G内存、RAID5+存储、1-2U机箱",
+          "要求低待机功耗、IPMI功能（如iDRAC），用于运行nginx、docker和Python程序"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955084",
+      "title": "落地vps推荐",
+      "url": "https://linux.do/t/topic/955084",
+      "analysis": {
+        "core_issue": "用户寻求推荐年付20美元左右、具有原生IP和良好解锁能力的落地VPS",
+        "key_info": [
+          "年付20刀左右预算",
+          "要求原生IP",
+          "要求解锁性能好"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955074",
+      "title": "arc 浏览器界面的中文字体怎么改啊",
+      "url": "https://linux.do/t/topic/955074",
+      "analysis": {
+        "core_issue": "用户询问如何修改Arc浏览器界面的中文字体",
+        "key_info": [
+          "字体修改方法",
+          "界面自定义设置"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955068",
+      "title": "你们大学综测是怎么打分的？拿高分非要舔吗？",
+      "url": "https://linux.do/t/topic/955068",
+      "analysis": {
+        "core_issue": "学生对大学综测打分机制的公平性提出质疑，认为存在不透明和偏向班委的问题。",
+        "key_info": [
+          "学生成绩排名第4但因综测仅为'合格'而无法申请奖学金",
+          "综测包含德智体美劳五个方面，其中德美劳基础60分加20分民主评议，但学生未参与评议过程",
+          "学生观察到班委的德美劳分数普遍较高，怀疑存在不公"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955067",
+      "title": "comet邀请码x4（已无）",
+      "url": "https://linux.do/t/topic/955067",
+      "analysis": {
+        "core_issue": "用户分享了四个comet邀请码供他人使用，并请求使用后反馈",
+        "key_info": [
+          "提供了四个comet邀请码链接",
+          "邀请码可用于perplexity.ai浏览器的兑换",
+          "请求使用者在用掉邀请码后进行反馈"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955063",
+      "title": "一起比较典型的带节奏、阴阳怪气违规处理",
+      "url": "https://linux.do/t/topic/955063",
+      "analysis": {
+        "core_issue": "版主处理一起通过篡改标题带节奏并引发大量阴阳怪气回帖的违规事件",
+        "key_info": [
+          "主帖标题私自添加'铁骨铮铮'进行春秋笔法带节奏",
+          "主帖作者@realsky被处7天封禁",
+          "两名言论过激跟帖账号被处3天封禁",
+          "其余阴阳怪气言论被删帖并记录违规"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955061",
+      "title": "bios密码忘记了怎么办",
+      "url": "https://linux.do/t/topic/955061",
+      "analysis": {
+        "core_issue": "用户忘记了Redmibook pro14 2022锐龙版笔记本电脑的BIOS密码，导致无法进入U盘启动项重装系统",
+        "key_info": [
+          "无法进入U盘启动项",
+          "Redmibook pro14 2022锐龙版笔记本电脑"
+        ],
+        "post_type": "求助",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955060",
+      "title": "关于宝可梦使用感受",
+      "url": "https://linux.do/t/topic/955060",
+      "analysis": {
+        "core_issue": "用户对购买的VPN服务季度付费后感到质量不高",
+        "key_info": [
+          "支持了VPN季度付费",
+          "VPN质量不咋高"
+        ],
+        "post_type": "产品评测",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "955056",
+      "title": "个人首个AI音乐专辑上架qq音乐、网易云音乐，“酒+大唐”文化酝酿《酒冷之前》",
+      "url": "https://linux.do/t/topic/955056",
+      "analysis": {
+        "core_issue": "作者宣布其首张AI音乐专辑《酒冷之前》在QQ音乐和网易云音乐平台同步上线。",
+        "key_info": [
+          "专辑包含8首歌曲，其中7首为新式古风，1首为芭乐",
+          "专辑已在QQ音乐、网易云音乐同步上线",
+          "帖子详细列出了《酒冷之前》、《醉月行》、《酒来》三首歌曲的完整歌词"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955055",
+      "title": "下载菠萝包小说",
+      "url": "https://linux.do/t/topic/955055",
+      "analysis": {
+        "core_issue": "用户询问如何下载已购买的菠萝包小说内容以便分享给他人",
+        "key_info": [
+          "用户拥有会员并已购买小说",
+          "寻求小说下载方法",
+          "意图将内容分享给他人"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "955048",
+      "title": "值得收藏的《道德经》版本：道德寶章(宋)葛長庚注(元)趙孟頫書",
+      "url": "https://linux.do/t/topic/955048",
+      "analysis": {
+        "core_issue": "用户预告将分享《道德寶章》版本的《道德经》网盘资源，但需等待等级提升后发布完整链接",
+        "key_info": [
+          "预告分享《道德寶章》(宋)葛長庚注(元)趙孟頫書版本的《道德经》",
+          "完整网盘链接需待用户等级提升后发布"
+        ],
+        "post_type": "资源分享",
+        "value_assessment": "高"
+      }
+    },
+    {
+      "id": "955046",
+      "title": "问下佬友们，升三级一直卡在访问天数上是怎么回事",
+      "url": "https://linux.do/t/topic/955046",
+      "analysis": {
+        "core_issue": "用户升级三级时因访问天数不足被卡住",
+        "key_info": [
+          "升级三级需要满足访问天数要求",
+          "可能未达到系统规定的连续或累计登录天数"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955044",
+      "title": "借个王者号玩玩",
+      "url": "https://linux.do/t/topic/955044",
+      "analysis": {
+        "core_issue": "用户寻求借用安卓QQ区有一定皮肤的王者荣耀账号长期使用并帮忙完成任务",
+        "key_info": [
+          "安卓QQ区",
+          "需要有一定皮肤但不强求V10",
+          "可帮忙做任务领活动皮肤",
+          "承诺长期使用"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "955032",
+      "title": "内存笑话倒反天罡了；你硬盘多大？32G；我说的不是内存；对就是硬盘呀；",
+      "url": "https://linux.do/t/topic/955032",
+      "analysis": {
+        "core_issue": "帖子讨论了一个关于内存和硬盘容量混淆的笑话，并提及了SLC硬盘的分享。",
+        "key_info": [
+          "内存和硬盘容量混淆的笑话",
+          "提及SLC硬盘的分享"
+        ],
+        "post_type": "日常闲聊",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "955031",
+      "title": "【咨询】wise德区卡以及myfin能开gpt team吗?",
+      "url": "https://linux.do/t/topic/955031",
+      "analysis": {
+        "core_issue": "咨询Wise德区卡和MyFin卡能否用于开通GPT Team服务",
+        "key_info": [
+          "询问Wise德区卡是否能开通",
+          "询问MyFin卡是否能开通"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "955021",
+      "title": "瑞典高端重卡斯堪尼亚国产版车标字体采用微软雅黑，车标与尾部均为中文汉字！",
+      "url": "https://linux.do/t/topic/955021",
+      "analysis": {
+        "core_issue": "斯堪尼亚中国产重卡在工信部申报，车标和尾部首次采用中文汉字及微软雅黑字体。",
+        "key_info": [
+          "斯堪尼亚制造（中国）有限公司的半挂牵引车通过工信部第399批新产品公示",
+          "车型号为SAS4261GGN001，车头与尾部均印有“斯堪尼亚”中文字样",
+          "车标字体采用了微软雅黑"
+        ],
+        "post_type": "新闻资讯",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "954987",
+      "title": "王者也有片哥了？",
+      "url": "https://linux.do/t/topic/954987",
+      "analysis": {
+        "core_issue": "用户发现王者荣耀游戏邮箱中收到疑似诈骗的虚假战队邀请",
+        "key_info": [
+          "清理王者邮箱",
+          "发现战队邀请",
+          "邀请内容可疑"
+        ],
+        "post_type": "讨论",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "954986",
+      "title": "OAI team 求上车，带支付也可以",
+      "url": "https://linux.do/t/topic/954986",
+      "analysis": {
+        "core_issue": "用户请求加入OAI团队的车队，并表示愿意承担支付费用",
+        "key_info": [
+          "求带上车",
+          "愿意带支付"
+        ],
+        "post_type": "求助",
+        "value_assessment": "低"
+      }
+    },
+    {
+      "id": "954979",
+      "title": "codex的api格式是啥",
+      "url": "https://linux.do/t/topic/954979",
+      "analysis": {
+        "core_issue": "用户询问Codex API的接口格式，但表示无法查到相关信息且AI查询显示可能已弃用",
+        "key_info": [
+          "查询Codex API接口格式",
+          "网上和AI都查不到相关信息",
+          "可能已被弃用"
+        ],
+        "post_type": "技术问答",
+        "value_assessment": "中"
+      }
+    },
+    {
+      "id": "954966",
+      "title": "佬友们 怎么bt下载",
+      "url": "https://linux.do/t/topic/954966",
+      "analysis": {
+        "core_issue": "用户询问如何通过BT下载视频以及使用代理是否能够加速下载",
+        "key_info": [
+          "BT下载方法",
+          "代理加速下载"
+        ],
+        "post_type": "求助",
+        "value_assessment": "中"
+      }
+    }
+  ]
+}
